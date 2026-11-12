@@ -1,0 +1,8 @@
+CHECK|Student full construction/destruction order|PASS
+CHECK|Staff full construction/destruction order|PASS
+CHECK|nonvirtual TA has two Persons|PASS
+CHECK|nonvirtual role identities retained|PASS
+CHECK|nonvirtual TA complete trace|PASS
+CHECK|invalid address rejected before construction completes|PASS
+CHECK|failed Course construction unwinds completed base/member|PASS
+TEST_COUNT 7

@@ -1,0 +1,30 @@
+{
+  "source": "Task03/constructor_experiments/reordered.cpp",
+  "sha256": "7401ca6d52dcdbd5a85ab69024d94544354abe965325c8ad9380a1520b623741",
+  "timestamp_utc": "2026-11-12T13:09:01.593069+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\Task03\\constructor_experiments\\reordered.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\build\\Task03\\constructor_experiments_reordered.exe",
+    "-Wreorder"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": "warning",
+  "compile_only": false,
+  "test_count": 1,
+  "tag": null,
+  "headers_sha256": {},
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\build\\Task03\\constructor_experiments_reordered.exe"
+  ],
+  "run_exit": 0,
+  "status": "PASS",
+  "expected_comparison": "PASS: exact characters after platform newline decoding"
+}

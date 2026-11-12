@@ -1,0 +1,19 @@
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-4\Task03\constructor_experiments\reordered.cpp: In constructor 'Student::Student(const std::string&, int, long long int, const std::string&, int)':
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-4\Task03\constructor_experiments\reordered.cpp:24:13: warning: 'Student::home' will be initialized after [-Wreorder]
+   24 |     Address home;
+      |             ^~~~
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-4\Task03\constructor_experiments\reordered.cpp:23:15: warning:   'long long int Student::regNo' [-Wreorder]
+   23 |     long long regNo;
+      |               ^~~~~
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-4\Task03\constructor_experiments\reordered.cpp:27:5: warning:   when initialized here [-Wreorder]
+   27 |     Student(const std::string& n, int a, long long r, const std::string& c, int p)
+      |     ^~~~~~~
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-4\Task03\constructor_experiments\reordered.cpp:23:15: warning: 'Student::regNo' will be initialized after [-Wreorder]
+   23 |     long long regNo;
+      |               ^~~~~
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-4\Task03\constructor_experiments\reordered.cpp:28:44: warning:   base 'Person' [-Wreorder]
+   28 |         : home(c, p), regNo(r), Person(n, a) {}
+      |                                            ^
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-4\Task03\constructor_experiments\reordered.cpp:27:5: warning:   when initialized here [-Wreorder]
+   27 |     Student(const std::string& n, int a, long long r, const std::string& c, int p)
+      |     ^~~~~~~

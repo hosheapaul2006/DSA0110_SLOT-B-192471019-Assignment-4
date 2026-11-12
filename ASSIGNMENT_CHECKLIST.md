@@ -29,19 +29,19 @@ Derived from all 14 pages of the supplied PDF and the current preparation prompt
 | T2.12 | Composition alternative code and duplicate Person discussion | PASS | [analysis](Task02/explanation.md), [access](Task02/access_table.md), [tests](Task02/test_cases.md), [prediction comparison](Task02/prediction_observation.md) |
 | T2.13 | Actual sizeof virtual/nonvirtual/composition; O(1) access and space comparison | PASS | [analysis](Task02/explanation.md), [access](Task02/access_table.md), [tests](Task02/test_cases.md), [prediction comparison](Task02/prediction_observation.md) |
 | T2.14 | Normal and invalid university-person tests | PASS | [analysis](Task02/explanation.md), [access](Task02/access_table.md), [tests](Task02/test_cases.md), [prediction comparison](Task02/prediction_observation.md) |
-| T3.01 | Student Staff TA initializer lists and most-derived virtual-base initialization | PENDING | Task03/ |
-| T3.02 | Address member in Person; Course member in Student | PENDING | Task03/ |
-| T3.03 | Every constructor/destructor traces Student Staff TA lifetimes | PENDING | Task03/ |
-| T3.04 | Nonvirtual experiment with two Persons and destruction order | PENDING | Task03/ |
-| T3.05 | Actual virtual/nonvirtual TeachingAssistant sizeof comparison | PENDING | Task03/ |
-| T3.06 | Exact Engine Vehicle Car prediction committed before execution | PENDING | Task03/ |
-| T3.07 | Original prediction execution and exact character comparison | PENDING | Task03/ |
-| T3.08 | Complete supplied Student constructor changing only TODO1 | PENDING | Task03/ |
-| T3.09 | Expected completed output 192311001 Kavya (19) Salem-636001 | PENDING | Task03/ |
-| T3.10 | Swapped initializer list and actual -Wreorder warning | PENDING | Task03/ |
-| T3.11 | Address embedding vs owning pointer alternative code/pseudocode | PENDING | Task03/ |
-| T3.12 | Allocation/pointer space; constructor deep-copy assignment destructor safety analysis | PENDING | Task03/ |
-| T3.13 | Normal/boundary lifetime and ownership tests | PENDING | Task03/ |
+| T3.01 | Student Staff TA initializer lists and most-derived virtual-base initialization | PASS | [analysis](Task03/explanation.md), [tests](Task03/test_cases.md), [actual traces](Task03/outputs/main_actual.txt), [warning](Task03/outputs/constructor_experiments_reordered_compiler.txt) |
+| T3.02 | Address member in Person; Course member in Student | PASS | [analysis](Task03/explanation.md), [tests](Task03/test_cases.md), [actual traces](Task03/outputs/main_actual.txt), [warning](Task03/outputs/constructor_experiments_reordered_compiler.txt) |
+| T3.03 | Every constructor/destructor traces Student Staff TA lifetimes | PASS | [analysis](Task03/explanation.md), [tests](Task03/test_cases.md), [actual traces](Task03/outputs/main_actual.txt), [warning](Task03/outputs/constructor_experiments_reordered_compiler.txt) |
+| T3.04 | Nonvirtual experiment with two Persons and destruction order | PASS | [analysis](Task03/explanation.md), [tests](Task03/test_cases.md), [actual traces](Task03/outputs/main_actual.txt), [warning](Task03/outputs/constructor_experiments_reordered_compiler.txt) |
+| T3.05 | Actual virtual/nonvirtual TeachingAssistant sizeof comparison | PASS | [analysis](Task03/explanation.md), [tests](Task03/test_cases.md), [actual traces](Task03/outputs/main_actual.txt), [warning](Task03/outputs/constructor_experiments_reordered_compiler.txt) |
+| T3.06 | Exact Engine Vehicle Car prediction committed before execution | PASS | [analysis](Task03/explanation.md), [tests](Task03/test_cases.md), [actual traces](Task03/outputs/main_actual.txt), [warning](Task03/outputs/constructor_experiments_reordered_compiler.txt) |
+| T3.07 | Original prediction execution and exact character comparison | PASS | [analysis](Task03/explanation.md), [tests](Task03/test_cases.md), [actual traces](Task03/outputs/main_actual.txt), [warning](Task03/outputs/constructor_experiments_reordered_compiler.txt) |
+| T3.08 | Complete supplied Student constructor changing only TODO1 | PASS | [analysis](Task03/explanation.md), [tests](Task03/test_cases.md), [actual traces](Task03/outputs/main_actual.txt), [warning](Task03/outputs/constructor_experiments_reordered_compiler.txt) |
+| T3.09 | Expected completed output 192311001 Kavya (19) Salem-636001 | PASS | [analysis](Task03/explanation.md), [tests](Task03/test_cases.md), [actual traces](Task03/outputs/main_actual.txt), [warning](Task03/outputs/constructor_experiments_reordered_compiler.txt) |
+| T3.10 | Swapped initializer list and actual -Wreorder warning | PASS | [analysis](Task03/explanation.md), [tests](Task03/test_cases.md), [actual traces](Task03/outputs/main_actual.txt), [warning](Task03/outputs/constructor_experiments_reordered_compiler.txt) |
+| T3.11 | Address embedding vs owning pointer alternative code/pseudocode | PASS | [analysis](Task03/explanation.md), [tests](Task03/test_cases.md), [actual traces](Task03/outputs/main_actual.txt), [warning](Task03/outputs/constructor_experiments_reordered_compiler.txt) |
+| T3.12 | Allocation/pointer space; constructor deep-copy assignment destructor safety analysis | PASS | [analysis](Task03/explanation.md), [tests](Task03/test_cases.md), [actual traces](Task03/outputs/main_actual.txt), [warning](Task03/outputs/constructor_experiments_reordered_compiler.txt) |
+| T3.13 | Normal/boundary lifetime and ownership tests | PASS | [analysis](Task03/explanation.md), [tests](Task03/test_cases.md), [actual traces](Task03/outputs/main_actual.txt), [warning](Task03/outputs/constructor_experiments_reordered_compiler.txt) |
 | T4.01 | Original banking design retained with isolated destructor trace | PENDING | Task04/ |
 | T4.02 | Explain static binding nonvirtual-delete UB and slicing | PENDING | Task04/ |
 | T4.03 | Run original unsafe deletion under actual AddressSanitizer | PENDING | Task04/ |
