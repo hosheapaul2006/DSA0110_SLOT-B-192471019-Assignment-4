@@ -1,0 +1,2 @@
+CHECK|equivalent switch salaries|PASS
+TEST_COUNT 1

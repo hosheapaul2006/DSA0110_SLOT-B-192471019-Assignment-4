@@ -6,15 +6,15 @@ Derived from all 14 pages of the supplied PDF and the current preparation prompt
 
 | ID | Requirement | Status | Evidence |
 |---|---|---|---|
-| T1.01 | Preserve original payroll classes and execute a safe wrapper | PENDING | Task01/ |
-| T1.02 | Diagnose at least five concrete deficiencies | PENDING | Task01/ |
-| T1.03 | Common encapsulated hierarchy and overridden virtual pay | PENDING | Task01/ |
-| T1.04 | Virtual destructor and processing heterogeneous base pointers | PENDING | Task01/ |
-| T1.05 | Proper UML class diagram | PENDING | Task01/ |
-| T1.06 | Extensibility defence at most 100 words | PENDING | Task01/ |
-| T1.07 | Type/switch alternative with code or pseudocode | PENDING | Task01/ |
-| T1.08 | O(1) pay, per-object space and extension change-count comparison | PENDING | Task01/ |
-| T1.09 | Normal, boundary and invalid payroll tests | PENDING | Task01/ |
+| T1.01 | Preserve original payroll classes and execute a safe wrapper | PASS | [design](Task01/explanation.md), [UML](Task01/diagrams/hierarchy.md), [executed tests](Task01/test_cases.md) |
+| T1.02 | Diagnose at least five concrete deficiencies | PASS | [design](Task01/explanation.md), [UML](Task01/diagrams/hierarchy.md), [executed tests](Task01/test_cases.md) |
+| T1.03 | Common encapsulated hierarchy and overridden virtual pay | PASS | [design](Task01/explanation.md), [UML](Task01/diagrams/hierarchy.md), [executed tests](Task01/test_cases.md) |
+| T1.04 | Virtual destructor and processing heterogeneous base pointers | PASS | [design](Task01/explanation.md), [UML](Task01/diagrams/hierarchy.md), [executed tests](Task01/test_cases.md) |
+| T1.05 | Proper UML class diagram | PASS | [design](Task01/explanation.md), [UML](Task01/diagrams/hierarchy.md), [executed tests](Task01/test_cases.md) |
+| T1.06 | Extensibility defence at most 100 words | PASS | [design](Task01/explanation.md), [UML](Task01/diagrams/hierarchy.md), [executed tests](Task01/test_cases.md) |
+| T1.07 | Type/switch alternative with code or pseudocode | PASS | [design](Task01/explanation.md), [UML](Task01/diagrams/hierarchy.md), [executed tests](Task01/test_cases.md) |
+| T1.08 | O(1) pay, per-object space and extension change-count comparison | PASS | [design](Task01/explanation.md), [UML](Task01/diagrams/hierarchy.md), [executed tests](Task01/test_cases.md) |
+| T1.09 | Normal, boundary and invalid payroll tests | PASS | [design](Task01/explanation.md), [UML](Task01/diagrams/hierarchy.md), [executed tests](Task01/test_cases.md) |
 | T2.01 | Person name ID phone; Student programme CGPA; Staff department salary | PENDING | Task02/ |
 | T2.02 | TeachingAssistant is Student and Staff; ResearchScholar fellowship | PENDING | Task02/ |
 | T2.03 | Is-a and has-a analysis; single/multiple/multilevel/hierarchical/hybrid classification | PENDING | Task02/ |

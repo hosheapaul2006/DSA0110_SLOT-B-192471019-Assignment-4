@@ -1,0 +1,31 @@
+{
+  "source": "Task01/original_design.cpp",
+  "sha256": "e0328ae5e407220199917985daf4ab067aec3c053f7abeac2c5f3574850a9036",
+  "timestamp_utc": "2026-11-12T13:02:19.313204+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\Task01\\original_design.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\build\\Task01\\original_design.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 1,
+  "tag": null,
+  "headers_sha256": {
+    "Task01/payroll.hpp": "5394b43eab40d5ee8165656498bff3e5f4e6e9f689ea6290a605d7469362ead2"
+  },
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\build\\Task01\\original_design.exe"
+  ],
+  "run_exit": 0,
+  "status": "PASS",
+  "expected_comparison": "PASS: exact characters after platform newline decoding"
+}

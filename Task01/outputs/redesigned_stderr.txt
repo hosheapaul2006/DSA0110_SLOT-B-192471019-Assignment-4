@@ -1,0 +1,12 @@
+CHECK|polymorphic pay|PASS
+CHECK|polymorphic pay|PASS
+CHECK|polymorphic pay|PASS
+CHECK|zero salary|PASS
+CHECK|zero hours|PASS
+CHECK|configurable DA|PASS
+CHECK|negative basic rejected|PASS
+CHECK|infinite rate rejected|PASS
+CHECK|empty identity rejected|PASS
+CHECK|nonpositive ID rejected|PASS
+CHECK|pay overflow rejected|PASS
+TEST_COUNT 11
