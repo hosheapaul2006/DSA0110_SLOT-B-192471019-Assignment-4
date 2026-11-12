@@ -64,21 +64,21 @@ Derived from all 14 pages of the supplied PDF and the current preparation prompt
 | T5.08 | Actual by-value chaining experiment and explanation | PASS | [analysis](Task05/explanation.md), [tests](Task05/test_cases.md), [TODO output](Task05/outputs/complete_code_actual.txt) |
 | T5.09 | vector<Cart> alternative with highest-total search | PASS | [analysis](Task05/explanation.md), [tests](Task05/test_cases.md), [TODO output](Task05/outputs/complete_code_actual.txt) |
 | T5.10 | O(n) search and object/pointer storage copy/move and invalidation analysis | PASS | [analysis](Task05/explanation.md), [tests](Task05/test_cases.md), [TODO output](Task05/outputs/complete_code_actual.txt) |
-| T6.01 | Stage1 entities common/specialized data and testable requirements before code | PENDING | Task06/ |
-| T6.02 | Stage2 abstract Vehicle pure virtual function and UML | PENDING | Task06/ |
-| T6.03 | Bicycle TwoWheeler Car ElectricCar and later ElectricBus | PENDING | Task06/ |
-| T6.04 | Fuel litres versus charge kWh; level service date seating battery capacity | PENDING | Task06/ |
-| T6.05 | Stage3 access virtual behavior ownership and required base-pointer-array decisions | PENDING | Task06/ |
-| T6.06 | Stage4 complete declarations and structured pseudocode | PENDING | Task06/ |
-| T6.07 | Pseudocode rent return charge late charge and list | PENDING | Task06/ |
-| T6.08 | Stage5 rent every type and return with late charge | PENDING | Task06/ |
-| T6.09 | Prevent double booking and invalid/unknown operations | PENDING | Task06/ |
-| T6.10 | Safe polymorphic cleanup and ownership | PENDING | Task06/ |
+| T6.01 | Stage1 entities common/specialized data and testable requirements before code | PASS | [pre-code design](Task06/design_before_implementation.md), [UML](Task06/diagrams/hierarchy.md), [pseudocode](Task06/pseudocode.md), [tests](Task06/test_cases.md) |
+| T6.02 | Stage2 abstract Vehicle pure virtual function and UML | PASS | [pre-code design](Task06/design_before_implementation.md), [UML](Task06/diagrams/hierarchy.md), [pseudocode](Task06/pseudocode.md), [tests](Task06/test_cases.md) |
+| T6.03 | Bicycle TwoWheeler Car ElectricCar and later ElectricBus | PASS | [pre-code design](Task06/design_before_implementation.md), [UML](Task06/diagrams/hierarchy.md), [pseudocode](Task06/pseudocode.md), [tests](Task06/test_cases.md) |
+| T6.04 | Fuel litres versus charge kWh; level service date seating battery capacity | PASS | [pre-code design](Task06/design_before_implementation.md), [UML](Task06/diagrams/hierarchy.md), [pseudocode](Task06/pseudocode.md), [tests](Task06/test_cases.md) |
+| T6.05 | Stage3 access virtual behavior ownership and required base-pointer-array decisions | PASS | [pre-code design](Task06/design_before_implementation.md), [UML](Task06/diagrams/hierarchy.md), [pseudocode](Task06/pseudocode.md), [tests](Task06/test_cases.md) |
+| T6.06 | Stage4 complete declarations and structured pseudocode | PASS | [pre-code design](Task06/design_before_implementation.md), [UML](Task06/diagrams/hierarchy.md), [pseudocode](Task06/pseudocode.md), [tests](Task06/test_cases.md) |
+| T6.07 | Pseudocode rent return charge late charge and list | PASS | [pre-code design](Task06/design_before_implementation.md), [UML](Task06/diagrams/hierarchy.md), [pseudocode](Task06/pseudocode.md), [tests](Task06/test_cases.md) |
+| T6.08 | Stage5 rent every type and return with late charge | PASS | [pre-code design](Task06/design_before_implementation.md), [UML](Task06/diagrams/hierarchy.md), [pseudocode](Task06/pseudocode.md), [tests](Task06/test_cases.md) |
+| T6.09 | Prevent double booking and invalid/unknown operations | PASS | [pre-code design](Task06/design_before_implementation.md), [UML](Task06/diagrams/hierarchy.md), [pseudocode](Task06/pseudocode.md), [tests](Task06/test_cases.md) |
+| T6.10 | Safe polymorphic cleanup and ownership | PASS | [pre-code design](Task06/design_before_implementation.md), [UML](Task06/diagrams/hierarchy.md), [pseudocode](Task06/pseudocode.md), [tests](Task06/test_cases.md) |
 | T6.11 | ElectricBus extension without changes to existing vehicle class implementations | PENDING | Task06/ |
 | T6.12 | Genuine ElectricBus tests and execution output | PENDING | Task06/ |
-| T6.13 | Switch/type-code alternative code/pseudocode | PENDING | Task06/ |
-| T6.14 | O(1) charge O(n) fleet lookup/list space unused fields and extension comparison | PENDING | Task06/ |
-| T6.15 | Boundary and invalid-input fleet tests | PENDING | Task06/ |
+| T6.13 | Switch/type-code alternative code/pseudocode | PASS | [pre-code design](Task06/design_before_implementation.md), [UML](Task06/diagrams/hierarchy.md), [pseudocode](Task06/pseudocode.md), [tests](Task06/test_cases.md) |
+| T6.14 | O(1) charge O(n) fleet lookup/list space unused fields and extension comparison | PASS | [pre-code design](Task06/design_before_implementation.md), [UML](Task06/diagrams/hierarchy.md), [pseudocode](Task06/pseudocode.md), [tests](Task06/test_cases.md) |
+| T6.15 | Boundary and invalid-input fleet tests | PASS | [pre-code design](Task06/design_before_implementation.md), [UML](Task06/diagrams/hierarchy.md), [pseudocode](Task06/pseudocode.md), [tests](Task06/test_cases.md) |
 | G.01 | All valid C++17 programs compiled with warnings and executed | PENDING | Final verification |
 | G.02 | Real compiler version commands source hashes outputs and test-case tables | PENDING | Final verification |
 | G.03 | Genuine Programiz execution and source/output screenshots | PENDING | Final verification |

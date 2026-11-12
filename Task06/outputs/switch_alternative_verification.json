@@ -1,0 +1,32 @@
+{
+  "source": "Task06/switch_alternative.cpp",
+  "sha256": "983c0320adb578299d6de1fb6adf7e608a928bd373b3c64bcadb771dcbc381d4",
+  "timestamp_utc": "2026-11-12T13:23:27.825279+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\Task06\\switch_alternative.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\build\\Task06\\switch_alternative.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 4,
+  "tag": null,
+  "headers_sha256": {
+    "Task06/fleet.hpp": "3168c98632c88a4e129fa258c73c622984aa55bd7e7a3fad261cfd6bcfb56485",
+    "tools/checks.hpp": "41305e8577c46073bce3087490d172e99b7c7d24dc45f3c4934798f53fc5414a"
+  },
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\build\\Task06\\switch_alternative.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

@@ -1,0 +1,5 @@
+CHECK|switch matches independent four-type totals|PASS
+CHECK|switch matches independent four-type totals|PASS
+CHECK|switch matches independent four-type totals|PASS
+CHECK|switch matches independent four-type totals|PASS
+TEST_COUNT 4

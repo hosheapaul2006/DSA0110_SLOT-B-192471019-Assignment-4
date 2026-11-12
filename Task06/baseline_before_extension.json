@@ -1,0 +1,8 @@
+{
+  "files": {
+    "Task06/fleet.hpp": "3168c98632c88a4e129fa258c73c622984aa55bd7e7a3fad261cfd6bcfb56485",
+    "Task06/main.cpp": "2bd2290ee9c43e002262848dc6f6ee739f9e3b632af5e01b0b5e9f3da808b974",
+    "Task06/switch_alternative.cpp": "983c0320adb578299d6de1fb6adf7e608a928bd373b3c64bcadb771dcbc381d4"
+  },
+  "purpose": "Captured before ElectricBus implementation; existing vehicle classes and baseline drivers must remain unchanged"
+}
