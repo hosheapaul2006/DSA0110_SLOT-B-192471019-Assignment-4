@@ -1,0 +1,2 @@
+CHECK|nonvirtual binding and safely observed slicing|PASS
+TEST_COUNT 1

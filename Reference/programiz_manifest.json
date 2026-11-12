@@ -1,0 +1,170 @@
+[
+  {
+    "base_source": "Task01/original_design.cpp",
+    "submitted_source": "Task01/original_design.cpp",
+    "local_stdout": "Task01/outputs/original_design_actual.txt",
+    "output_stem": "original_design",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task01/redesigned.cpp",
+    "submitted_source": "Task01/online_redesigned.cpp",
+    "local_stdout": "Task01/outputs/online_redesigned_actual.txt",
+    "output_stem": "redesigned",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task01/switch_alternative.cpp",
+    "submitted_source": "Task01/online_switch_alternative.cpp",
+    "local_stdout": "Task01/outputs/online_switch_alternative_actual.txt",
+    "output_stem": "switch_alternative",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task02/access_experiment.cpp",
+    "submitted_source": "Task02/online_access_experiment.cpp",
+    "local_stdout": "Task02/outputs/online_access_experiment_actual.txt",
+    "output_stem": "access_experiment",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task02/composition_alternative.cpp",
+    "submitted_source": "Task02/online_composition_alternative.cpp",
+    "local_stdout": "Task02/outputs/online_composition_alternative_actual.txt",
+    "output_stem": "composition_alternative",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task02/diamond_experiment.cpp",
+    "submitted_source": "Task02/diamond_experiment.cpp",
+    "local_stdout": "Task02/outputs/diamond_experiment_actual.txt",
+    "output_stem": "diamond_experiment",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task02/main.cpp",
+    "submitted_source": "Task02/online_main.cpp",
+    "local_stdout": "Task02/outputs/online_main_actual.txt",
+    "output_stem": "main",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task02/predict_output.cpp",
+    "submitted_source": "Task02/predict_output.cpp",
+    "local_stdout": "Task02/outputs/predict_output_actual.txt",
+    "output_stem": "predict_output",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task03/complete_code.cpp",
+    "submitted_source": "Task03/complete_code.cpp",
+    "local_stdout": "Task03/outputs/complete_code_actual.txt",
+    "output_stem": "complete_code",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task03/constructor_experiments/reordered.cpp",
+    "submitted_source": "Task03/constructor_experiments/reordered.cpp",
+    "local_stdout": "Task03/outputs/constructor_experiments_reordered_actual.txt",
+    "output_stem": "constructor_experiments_reordered",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task03/main.cpp",
+    "submitted_source": "Task03/online_main.cpp",
+    "local_stdout": "Task03/outputs/online_main_actual.txt",
+    "output_stem": "main",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task03/nonvirtual_experiment.cpp",
+    "submitted_source": "Task03/online_nonvirtual_experiment.cpp",
+    "local_stdout": "Task03/outputs/online_nonvirtual_experiment_actual.txt",
+    "output_stem": "nonvirtual_experiment",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task03/owning_address.cpp",
+    "submitted_source": "Task03/online_owning_address.cpp",
+    "local_stdout": "Task03/outputs/online_owning_address_actual.txt",
+    "output_stem": "owning_address",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task03/predict_output.cpp",
+    "submitted_source": "Task03/predict_output.cpp",
+    "local_stdout": "Task03/outputs/predict_output_actual.txt",
+    "output_stem": "predict_output",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task04/predict_output.cpp",
+    "submitted_source": "Task04/predict_output.cpp",
+    "local_stdout": "Task04/outputs/predict_output_actual.txt",
+    "output_stem": "predict_output",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task04/repaired.cpp",
+    "submitted_source": "Task04/online_repaired.cpp",
+    "local_stdout": "Task04/outputs/online_repaired_actual.txt",
+    "output_stem": "repaired",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task04/safe_slicing.cpp",
+    "submitted_source": "Task04/online_safe_slicing.cpp",
+    "local_stdout": "Task04/outputs/online_safe_slicing_actual.txt",
+    "output_stem": "safe_slicing",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task05/complete_code.cpp",
+    "submitted_source": "Task05/complete_code.cpp",
+    "local_stdout": "Task05/outputs/complete_code_actual.txt",
+    "output_stem": "complete_code",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task05/main.cpp",
+    "submitted_source": "Task05/online_main.cpp",
+    "local_stdout": "Task05/outputs/online_main_actual.txt",
+    "output_stem": "main",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task05/pointer_experiments.cpp",
+    "submitted_source": "Task05/online_pointer_experiments.cpp",
+    "local_stdout": "Task05/outputs/online_pointer_experiments_actual.txt",
+    "output_stem": "pointer_experiments",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task05/return_by_value.cpp",
+    "submitted_source": "Task05/return_by_value.cpp",
+    "local_stdout": "Task05/outputs/return_by_value_actual.txt",
+    "output_stem": "return_by_value",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task06/extension_demo.cpp",
+    "submitted_source": "Task06/online_extension_demo.cpp",
+    "local_stdout": "Task06/outputs/online_extension_demo_actual.txt",
+    "output_stem": "extension_demo",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task06/main.cpp",
+    "submitted_source": "Task06/online_main.cpp",
+    "local_stdout": "Task06/outputs/online_main_actual.txt",
+    "output_stem": "main",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  },
+  {
+    "base_source": "Task06/switch_alternative.cpp",
+    "submitted_source": "Task06/online_switch_alternative.cpp",
+    "local_stdout": "Task06/outputs/online_switch_alternative_actual.txt",
+    "output_stem": "switch_alternative",
+    "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific"
+  }
+]

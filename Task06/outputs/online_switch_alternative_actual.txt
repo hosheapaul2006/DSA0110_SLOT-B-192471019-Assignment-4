@@ -1,0 +1,5 @@
+B1 switch total=350
+T1 switch total=1150
+C1 switch total=5450
+E1 switch total=6350
+sizeof record=96 Bicycle=56 TwoWheeler=96 Car=104 ElectricCar=104 Vehicle*=8

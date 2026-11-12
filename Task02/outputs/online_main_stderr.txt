@@ -1,0 +1,13 @@
+CHECK|TA has one shared Person|PASS
+CHECK|most-derived identity|PASS
+CHECK|both roles retained|PASS
+CHECK|research scholar identity and fellowship|PASS
+CHECK|composed contact and staff fields|PASS
+CHECK|zero CGPA accepted|PASS
+CHECK|CGPA above ten rejected|PASS
+CHECK|negative CGPA rejected|PASS
+CHECK|empty phone rejected|PASS
+CHECK|invalid ID rejected|PASS
+CHECK|negative salary rejected|PASS
+CHECK|NaN fellowship rejected|PASS
+TEST_COUNT 12

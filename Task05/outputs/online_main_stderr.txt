@@ -1,0 +1,21 @@
+CHECK|chaining preserves original identity|PASS
+CHECK|direct access|PASS
+CHECK|pointer access and this|PASS
+CHECK|reference aliases original|PASS
+CHECK|dynamic object access|PASS
+CHECK|deleted observer cleared|PASS
+CHECK|empty cart|PASS
+CHECK|free item and full discount|PASS
+CHECK|ten-item capacity boundary|PASS
+CHECK|full cart rejects eleventh|PASS
+CHECK|failed full add leaves state unchanged|PASS
+CHECK|negative price|PASS
+CHECK|NaN price|PASS
+CHECK|empty item|PASS
+CHECK|negative discount|PASS
+CHECK|discount above one hundred|PASS
+CHECK|infinite discount|PASS
+CHECK|failed operations preserve existing cart|PASS
+CHECK|sum overflow rejected|PASS
+CHECK|overflow rejection preserves finite total|PASS
+TEST_COUNT 20

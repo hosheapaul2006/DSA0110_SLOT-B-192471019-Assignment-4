@@ -1,0 +1,10 @@
+CHECK|maximum and stable first tie|PASS
+CHECK|empty pointer range|PASS
+CHECK|all-null pointer range|PASS
+CHECK|single pointer|PASS
+CHECK|missing nonempty pointer array|PASS
+CHECK|vector copy independent from source|PASS
+CHECK|reallocation preserves value|PASS
+CHECK|vector-object maximum|PASS
+CHECK|default member-wise move preserves destination|PASS
+TEST_COUNT 9

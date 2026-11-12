@@ -12,10 +12,11 @@ from verify import dependencies
 
 ROOT=Path(__file__).resolve().parents[1]
 CASES=[
- ('Task03/owning_address.cpp',None),
- ('Task04/original.cpp',r'new-delete-type-mismatch'),
- ('Task04/safe_slicing.cpp',None),
- ('Task04/repaired.cpp',None)]
+ ('Task01/redesigned.cpp',None), ('Task02/main.cpp',None),
+ ('Task03/main.cpp',None), ('Task03/nonvirtual_experiment.cpp',None), ('Task03/owning_address.cpp',None),
+ ('Task04/original.cpp',r'new-delete-type-mismatch'), ('Task04/safe_slicing.cpp',None), ('Task04/repaired.cpp',None),
+ ('Task05/main.cpp',None), ('Task05/pointer_experiments.cpp',None), ('Task05/complete_code.cpp',None), ('Task05/return_by_value.cpp',None),
+ ('Task06/main.cpp',None), ('Task06/extension_demo.cpp',None)]
 
 def main():
     files={};records=[];failed=False

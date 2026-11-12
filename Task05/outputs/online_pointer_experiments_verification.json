@@ -1,0 +1,29 @@
+{
+  "source": "Task05/online_pointer_experiments.cpp",
+  "sha256": "0d566a45b8fec50bf99c9715d2ce23158534805223c9df0b7a60a3d444610343",
+  "timestamp_utc": "2026-11-12T13:30:53.237052+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\Task05\\online_pointer_experiments.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\build\\Task05\\online_pointer_experiments.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 9,
+  "tag": null,
+  "headers_sha256": {},
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\build\\Task05\\online_pointer_experiments.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

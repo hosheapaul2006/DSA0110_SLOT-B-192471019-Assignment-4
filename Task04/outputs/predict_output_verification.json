@@ -1,7 +1,7 @@
 {
   "source": "Task04/predict_output.cpp",
   "sha256": "bf67554aaf4adb76e4758c11cf94c6561d6acf091c4b6adbe907de65271b650c",
-  "timestamp_utc": "2026-11-12T13:12:06.393075+00:00",
+  "timestamp_utc": "2026-11-12T13:30:46.851777+00:00",
   "optimization": "-O0",
   "compile_command": [
     "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
@@ -19,10 +19,7 @@
   "compile_only": false,
   "test_count": 1,
   "tag": null,
-  "headers_sha256": {
-    "Task04/accounts.hpp": "ba649643c5aea0a38b130233eb2ccdaa2e0b49d6fbd657f8c6e3569d81234501",
-    "Task04/original_banking.hpp": "9257029ae97970bd61e302fd667c935b84b3b59c8e338211151b60134bab7a8f"
-  },
+  "headers_sha256": {},
   "run_command": [
     "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\build\\Task04\\predict_output.exe"
   ],

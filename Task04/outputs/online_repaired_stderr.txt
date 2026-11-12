@@ -1,0 +1,7 @@
+CHECK|base interest rate|PASS
+CHECK|derived interest through base pointer|PASS
+CHECK|raw polymorphic destruction completes|PASS
+CHECK|smart-owner polymorphism|PASS
+CHECK|all smart owners destroy complete objects|PASS
+CHECK|empty collection has no owned accounts|PASS
+TEST_COUNT 6

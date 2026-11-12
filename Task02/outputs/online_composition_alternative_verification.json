@@ -1,0 +1,29 @@
+{
+  "source": "Task02/online_composition_alternative.cpp",
+  "sha256": "9f449c84f1b3fb4ea701cbfa494e9af87d1e44a290f3f839f979a7c3e34f0f92",
+  "timestamp_utc": "2026-11-12T13:30:37.909954+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\Task02\\online_composition_alternative.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\build\\Task02\\online_composition_alternative.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 2,
+  "tag": null,
+  "headers_sha256": {},
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\build\\Task02\\online_composition_alternative.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

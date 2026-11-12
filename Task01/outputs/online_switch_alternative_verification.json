@@ -1,0 +1,29 @@
+{
+  "source": "Task01/online_switch_alternative.cpp",
+  "sha256": "f7e27bf1579dca0d6d13256f07b0f4bb909b0175a52ccd0d7bdd6e77d753441a",
+  "timestamp_utc": "2026-11-12T13:30:35.385511+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\Task01\\online_switch_alternative.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\build\\Task01\\online_switch_alternative.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 1,
+  "tag": null,
+  "headers_sha256": {},
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\build\\Task01\\online_switch_alternative.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

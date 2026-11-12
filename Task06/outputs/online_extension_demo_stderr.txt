@@ -1,0 +1,13 @@
+CHECK|no initial extension objects|PASS
+CHECK|new subtype accepted without Fleet edits|PASS
+CHECK|ElectricBus independent late and kWh calculation|PASS
+CHECK|ElectricBus consumes kWh and restores availability|PASS
+CHECK|existing type still works with extension|PASS
+CHECK|ElectricBus booked minimum|PASS
+CHECK|invalid ElectricBus energy rejected|PASS
+CHECK|invalid ElectricBus energy rejected|PASS
+CHECK|invalid ElectricBus energy rejected|PASS
+CHECK|failed extension return preserves state|PASS
+CHECK|failed derived construction unwinds complete base|PASS
+CHECK|all extension and existing owners released|PASS
+TEST_COUNT 12

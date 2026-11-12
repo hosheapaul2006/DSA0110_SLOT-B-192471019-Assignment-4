@@ -1,0 +1,2 @@
+sizeof StaffRecord=88 Professor=72 LabAssistant=64 GuestFaculty=64
+

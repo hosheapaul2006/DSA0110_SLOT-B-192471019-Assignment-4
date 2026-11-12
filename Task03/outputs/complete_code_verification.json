@@ -1,7 +1,7 @@
 {
   "source": "Task03/complete_code.cpp",
   "sha256": "da3da036d5d293055f72a4103770dae901ae7334d8e4352a7b34acfbe317b5b7",
-  "timestamp_utc": "2026-11-12T13:09:01.065158+00:00",
+  "timestamp_utc": "2026-11-12T13:30:40.800217+00:00",
   "optimization": "-O0",
   "compile_command": [
     "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
@@ -19,9 +19,7 @@
   "compile_only": false,
   "test_count": 1,
   "tag": null,
-  "headers_sha256": {
-    "Task03/construction.hpp": "85a30fd7734fa5486f4e5106065689868894d8116f875019a3ff117e853ca4d2"
-  },
+  "headers_sha256": {},
   "run_command": [
     "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\build\\Task03\\complete_code.exe"
   ],

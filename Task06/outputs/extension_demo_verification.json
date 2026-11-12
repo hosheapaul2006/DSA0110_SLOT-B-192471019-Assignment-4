@@ -1,7 +1,7 @@
 {
   "source": "Task06/extension_demo.cpp",
   "sha256": "e776220343d09d5e26d64533068289541b598089e418d655dd31abe9b79b5d35",
-  "timestamp_utc": "2026-11-12T13:25:51.973145+00:00",
+  "timestamp_utc": "2026-11-12T13:30:54.642998+00:00",
   "optimization": "-O0",
   "compile_command": [
     "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",

@@ -1,0 +1,15 @@
+{
+  "base_source": "Task02/access_experiment.cpp",
+  "submitted_source": "Task02/online_access_experiment.cpp",
+  "local_stdout": "Task02/outputs/online_access_experiment_actual.txt",
+  "output_stem": "access_experiment",
+  "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific",
+  "sha256": "a265d8d7748c7fa48efb2060438535ddfc7701c91e34f975d48124b512b6ea5d",
+  "timestamp_utc": "2026-11-12T13:34:01.814Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "comparison_detail": "Exact fixed characters after CRLF decoding; separately validated platform-specific sizeof/address numbers; trailing UI blank space/success banner allowed.",
+  "screenshots": [
+    "Task02/screenshots/access_experiment_programiz.jpg"
+  ]
+}

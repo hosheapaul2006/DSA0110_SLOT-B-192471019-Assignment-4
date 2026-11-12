@@ -1,0 +1,5 @@
+CHECK|deep-copy constructor|PASS
+CHECK|deep-copy assignment|PASS
+CHECK|self-assignment|PASS
+CHECK|independent ownership|PASS
+TEST_COUNT 4

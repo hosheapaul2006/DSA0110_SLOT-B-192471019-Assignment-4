@@ -1,0 +1,5 @@
+Student: Kavya CSE
+Staff: Arun Computing
+TeachingAssistant: Meena MTech CSE
+Shared Person: true
+ResearchScholar: Ravi fellowship=35000

@@ -1,0 +1,62 @@
+CHECK|no initial vehicles|PASS
+CHECK|empty fleet|PASS
+CHECK|four owned types created|PASS
+CHECK|new vehicle available|PASS
+CHECK|rental changes availability|PASS
+CHECK|type-specific late/energy charge matches independent calculation|PASS
+CHECK|return restores availability|PASS
+CHECK|new vehicle available|PASS
+CHECK|rental changes availability|PASS
+CHECK|type-specific late/energy charge matches independent calculation|PASS
+CHECK|return restores availability|PASS
+CHECK|new vehicle available|PASS
+CHECK|rental changes availability|PASS
+CHECK|type-specific late/energy charge matches independent calculation|PASS
+CHECK|return restores availability|PASS
+CHECK|new vehicle available|PASS
+CHECK|rental changes availability|PASS
+CHECK|type-specific late/energy charge matches independent calculation|PASS
+CHECK|return restores availability|PASS
+CHECK|return consumes litres or kWh separately|PASS
+CHECK|early return keeps booked minimum|PASS
+CHECK|on-time return has no late fee|PASS
+CHECK|double booking rejected|PASS
+CHECK|zero actual days rejected|PASS
+CHECK|negative actual days rejected|PASS
+CHECK|bicycle energy rejected|PASS
+CHECK|failed operations preserve booking|PASS
+CHECK|return while available rejected|PASS
+CHECK|zero booking rejected|PASS
+CHECK|negative booking rejected|PASS
+CHECK|unknown rent rejected|PASS
+CHECK|unknown return rejected|PASS
+CHECK|invalid energy rejected|PASS
+CHECK|invalid energy rejected|PASS
+CHECK|invalid energy rejected|PASS
+CHECK|invalid energy rejected|PASS
+CHECK|failed energy checks preserve level and active rental|PASS
+CHECK|null owner rejected|PASS
+CHECK|duplicate registration rejected|PASS
+CHECK|failed additions clean candidate and preserve fleet|PASS
+CHECK|list includes specialized information|PASS
+CHECK|full fleet rejected|PASS
+CHECK|full-fleet failure preserves eight owners|PASS
+CHECK|all fleet owners destroy through virtual base|PASS
+CHECK|Gregorian leap-century accepted|PASS
+CHECK|non-leap-century date rejected|PASS
+CHECK|invalid calendar day rejected|PASS
+CHECK|invalid calendar month rejected|PASS
+CHECK|empty registration rejected|PASS
+CHECK|zero rate rejected|PASS
+CHECK|NaN rate rejected|PASS
+CHECK|zero energy capacity rejected|PASS
+CHECK|negative level rejected|PASS
+CHECK|above-capacity level rejected|PASS
+CHECK|zero seating rejected|PASS
+CHECK|unrepresentable booking rejected|PASS
+CHECK|booking overflow preserves availability|PASS
+CHECK|unrepresentable return charge rejected|PASS
+CHECK|return overflow preserves booking|PASS
+CHECK|representable large return succeeds|PASS
+CHECK|no remaining vehicles after boundary cases|PASS
+TEST_COUNT 61

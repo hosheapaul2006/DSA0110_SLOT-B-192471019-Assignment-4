@@ -1,7 +1,7 @@
 {
   "source": "Task04/safe_slicing.cpp",
   "sha256": "a12e34ff1437e7dbf69c72b5e892009318fcdeb647c1978912d09765c80497c4",
-  "timestamp_utc": "2026-11-12T13:12:07.603597+00:00",
+  "timestamp_utc": "2026-11-12T13:30:49.069067+00:00",
   "optimization": "-O0",
   "compile_command": [
     "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
@@ -20,8 +20,8 @@
   "test_count": 1,
   "tag": null,
   "headers_sha256": {
-    "Task04/accounts.hpp": "ba649643c5aea0a38b130233eb2ccdaa2e0b49d6fbd657f8c6e3569d81234501",
-    "Task04/original_banking.hpp": "9257029ae97970bd61e302fd667c935b84b3b59c8e338211151b60134bab7a8f"
+    "Task04/original_banking.hpp": "9257029ae97970bd61e302fd667c935b84b3b59c8e338211151b60134bab7a8f",
+    "tools/checks.hpp": "41305e8577c46073bce3087490d172e99b7c7d24dc45f3c4934798f53fc5414a"
   },
   "run_command": [
     "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\build\\Task04\\safe_slicing.exe",

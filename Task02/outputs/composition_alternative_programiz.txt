@@ -1,0 +1,4 @@
+sizeof Person=80 Student=128 Staff=128
+sizeof virtual TA=176 nonvirtual TA=240 composed TA=256
+Academic identity | Employment identity
+

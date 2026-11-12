@@ -1,0 +1,16 @@
+{
+  "base_source": "Task02/composition_alternative.cpp",
+  "submitted_source": "Task02/online_composition_alternative.cpp",
+  "local_stdout": "Task02/outputs/online_composition_alternative_actual.txt",
+  "output_stem": "composition_alternative",
+  "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific",
+  "sha256": "9f449c84f1b3fb4ea701cbfa494e9af87d1e44a290f3f839f979a7c3e34f0f92",
+  "timestamp_utc": "2026-11-12T13:34:06.662Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "comparison_detail": "Exact fixed characters after CRLF decoding; separately validated platform-specific sizeof/address numbers; trailing UI blank space/success banner allowed.",
+  "screenshots": [
+    "Task02/screenshots/composition_alternative_programiz.jpg",
+    "Task02/screenshots/composition_alternative_programiz_source_top.jpg"
+  ]
+}
