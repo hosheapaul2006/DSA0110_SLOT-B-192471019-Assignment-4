@@ -44,8 +44,8 @@ Derived from all 14 pages of the supplied PDF and the current preparation prompt
 | T3.13 | Normal/boundary lifetime and ownership tests | PASS | [analysis](Task03/explanation.md), [tests](Task03/test_cases.md), [actual traces](Task03/outputs/main_actual.txt), [warning](Task03/outputs/constructor_experiments_reordered_compiler.txt) |
 | T4.01 | Original banking design retained with isolated destructor trace | PASS | [analysis](Task04/explanation.md), [tests](Task04/test_cases.md) |
 | T4.02 | Explain static binding nonvirtual-delete UB and slicing | PASS | [analysis](Task04/explanation.md), [tests](Task04/test_cases.md) |
-| T4.03 | Run original unsafe deletion under actual AddressSanitizer | PENDING | Task04/ |
-| T4.04 | Record genuine constructor/destructor/sanitizer evidence; no-diagnostic limitation | PENDING | Task04/ |
+| T4.03 | Run original unsafe deletion under actual AddressSanitizer | PASS | [actual ASan output](Task04/outputs/sanitizer_original_stderr.txt), [14-case results](Reference/sanitizer_summary.json), [tests](Task04/test_cases.md) |
+| T4.04 | Record genuine constructor/destructor/sanitizer evidence; no-diagnostic limitation | PASS | [actual ASan output](Task04/outputs/sanitizer_original_stderr.txt), [14-case results](Reference/sanitizer_summary.json), [tests](Task04/test_cases.md) |
 | T4.05 | Repair virtual rate override virtual destructor and cleanup | PASS | [analysis](Task04/explanation.md), [tests](Task04/test_cases.md) |
 | T4.06 | Process base pointers/references without slicing; senior 4.0 vs ordinary 3.5 | PASS | [analysis](Task04/explanation.md), [tests](Task04/test_cases.md) |
 | T4.07 | At least two prevention rules | PASS | [analysis](Task04/explanation.md), [tests](Task04/test_cases.md) |
@@ -53,7 +53,7 @@ Derived from all 14 pages of the supplied PDF and the current preparation prompt
 | T4.09 | Original prediction execution and exact output comparison | PASS | [analysis](Task04/explanation.md), [tests](Task04/test_cases.md) |
 | T4.10 | Raw ownership versus vector<unique_ptr<Account>> alternative | PASS | [analysis](Task04/explanation.md), [tests](Task04/test_cases.md) |
 | T4.11 | O(n) processing, ownership space and smart-pointer limitations | PASS | [analysis](Task04/explanation.md), [tests](Task04/test_cases.md) |
-| T4.12 | Safe and intentionally defective cases tested separately | PENDING | Task04/ |
+| T4.12 | Safe and intentionally defective cases tested separately | PASS | [actual ASan output](Task04/outputs/sanitizer_original_stderr.txt), [14-case results](Reference/sanitizer_summary.json), [tests](Task04/test_cases.md) |
 | T5.01 | Four Cart access methods direct pointer reference new/delete | PASS | [analysis](Task05/explanation.md), [tests](Task05/test_cases.md), [TODO output](Task05/outputs/complete_code_actual.txt) |
 | T5.02 | this and *this demonstrated; method chaining and shadowed parameter | PASS | [analysis](Task05/explanation.md), [tests](Task05/test_cases.md), [TODO output](Task05/outputs/complete_code_actual.txt) |
 | T5.03 | Array of Cart pointers maximum search with indexing/arithmetic | PASS | [analysis](Task05/explanation.md), [tests](Task05/test_cases.md), [TODO output](Task05/outputs/complete_code_actual.txt) |
@@ -79,14 +79,18 @@ Derived from all 14 pages of the supplied PDF and the current preparation prompt
 | T6.13 | Switch/type-code alternative code/pseudocode | PASS | [pre-code design](Task06/design_before_implementation.md), [UML](Task06/diagrams/hierarchy.md), [pseudocode](Task06/pseudocode.md), [tests](Task06/test_cases.md) |
 | T6.14 | O(1) charge O(n) fleet lookup/list space unused fields and extension comparison | PASS | [pre-code design](Task06/design_before_implementation.md), [UML](Task06/diagrams/hierarchy.md), [pseudocode](Task06/pseudocode.md), [tests](Task06/test_cases.md) |
 | T6.15 | Boundary and invalid-input fleet tests | PASS | [pre-code design](Task06/design_before_implementation.md), [UML](Task06/diagrams/hierarchy.md), [pseudocode](Task06/pseudocode.md), [tests](Task06/test_cases.md) |
-| G.01 | All valid C++17 programs compiled with warnings and executed | PENDING | Final verification |
-| G.02 | Real compiler version commands source hashes outputs and test-case tables | PENDING | Final verification |
-| G.03 | Genuine Programiz execution and source/output screenshots | PENDING | Final verification |
-| G.04 | Progressive commits at least one per task; predictions precede execution | PENDING | Final verification |
-| G.05 | README identity exact build/run instructions folder/result/diagram index | PENDING | Final verification |
+| G.01 | All valid C++17 programs compiled with warnings and executed | PASS | [build audit](Reference/final_audit.json); all 25 base valid sources compiled; unsafe original executed only under isolated ASan |
+| G.02 | Real compiler version commands source hashes outputs and test-case tables | PASS | [compiler](Reference/compiler_version.txt), [commands/hashes/results](Reference/final_audit.json), task-local test tables |
+| G.03 | Genuine Programiz execution and source/output screenshots | PASS | [manifest](Reference/programiz_manifest.json); 24 actual Programiz programs, 39 genuine screenshots |
+| G.04 | Progressive commits at least one per task; predictions precede execution | PASS | [chronology](README.md#predictions-and-extension-chronology); meaningful commits for all six tasks |
+| G.05 | README identity exact build/run instructions folder/result/diagram index | PASS | [README](README.md); all source purposes, commands and diagram/evidence links |
 | G.06 | Final audit all files pushed clean tree and local/remote main match | PENDING | Final verification |
-| G.07 | No assignment report, cover page or Report folder | PENDING | Final verification |
-| G.08 | Existing repository naming discrepancy flagged | PENDING | Final verification |
-| G.09 | Official SIMATS pseudocode guide unavailable; conventional fallback disclosed | PENDING | Final verification |
-| G.10 | User individual execution and viva review | PENDING | Final verification |
-| G.11 | Classroom correct destination and user submission | PENDING | Final verification |
+| G.07 | No assignment report, cover page or Report folder | PASS | [no-report audit](Reference/final_audit.json); original input PDF preserved only in Reference/ |
+| G.08 | Existing repository naming discrepancy flagged | PASS | [naming discrepancy](README.md); existing repository retained as requested |
+| G.09 | Official SIMATS pseudocode guide unavailable; conventional fallback disclosed | PASS | [disclosed fallback](Reference/approved_design.md); conventional structured pseudocode used |
+| G.10 | User individual execution and viva review | PENDING | Student must personally run/review tasks and practise task-specific viva exercises; automated runs do not certify personal execution |
+| G.11 | Classroom correct destination and user submission | PENDING | Repository link prepared in README; user submits personally to the correct Classroom destination |
+
+The final audit separately records 325 runtime check evaluations (167 base, 158 repeated in derived browser builds), two expected compiler rejections, 14 sanitizer observations and 24 genuine online program comparisons. PASS on a negative example means its expected failure was genuinely observed.
+
+No report of any format was generated. All task-specific explanations remain in their corresponding folders.

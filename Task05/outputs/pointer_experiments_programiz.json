@@ -1,0 +1,16 @@
+{
+  "base_source": "Task05/pointer_experiments.cpp",
+  "submitted_source": "Task05/online_pointer_experiments.cpp",
+  "local_stdout": "Task05/outputs/online_pointer_experiments_actual.txt",
+  "output_stem": "pointer_experiments",
+  "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific",
+  "sha256": "0d566a45b8fec50bf99c9715d2ce23158534805223c9df0b7a60a3d444610343",
+  "timestamp_utc": "2026-11-12T13:38:07.279Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "comparison_detail": "Exact fixed characters after CRLF decoding; separately validated platform-specific sizeof/address numbers; trailing UI blank space/success banner allowed.",
+  "screenshots": [
+    "Task05/screenshots/pointer_experiments_programiz.jpg",
+    "Task05/screenshots/pointer_experiments_programiz_source_top.jpg"
+  ]
+}

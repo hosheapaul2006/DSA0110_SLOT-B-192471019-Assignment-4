@@ -1,0 +1,15 @@
+{
+  "base_source": "Task03/complete_code.cpp",
+  "submitted_source": "Task03/complete_code.cpp",
+  "local_stdout": "Task03/outputs/complete_code_actual.txt",
+  "output_stem": "complete_code",
+  "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific",
+  "sha256": "da3da036d5d293055f72a4103770dae901ae7334d8e4352a7b34acfbe317b5b7",
+  "timestamp_utc": "2026-11-12T13:35:30.340Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "comparison_detail": "Exact fixed characters after CRLF decoding; separately validated platform-specific sizeof/address numbers; trailing UI blank space/success banner allowed.",
+  "screenshots": [
+    "Task03/screenshots/complete_code_programiz.jpg"
+  ]
+}

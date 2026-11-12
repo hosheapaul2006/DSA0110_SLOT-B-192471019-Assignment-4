@@ -1,0 +1,34 @@
+{
+  "headers_sha256": {
+    "Task04/original_banking.hpp": "9257029ae97970bd61e302fd667c935b84b3b59c8e338211151b60134bab7a8f",
+    "tools/checks.hpp": "41305e8577c46073bce3087490d172e99b7c7d24dc45f3c4934798f53fc5414a"
+  },
+  "source": "Task04/safe_slicing.cpp",
+  "sha256": "a12e34ff1437e7dbf69c72b5e892009318fcdeb647c1978912d09765c80497c4",
+  "compile_command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-g",
+    "-O1",
+    "-fsanitize=address",
+    "-fno-omit-frame-pointer",
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-4/DSA0110_SLOT-B-192471019-Assignment-4/Task04/safe_slicing.cpp",
+    "-o",
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-4/DSA0110_SLOT-B-192471019-Assignment-4/build/sanitizer/Task04_safe_slicing"
+  ],
+  "compile_exit": 0,
+  "timestamp_utc": "2026-11-12T13:34:53.151168+00:00",
+  "expected_error_pattern": null,
+  "runner": "GitHub Actions Ubuntu 24.04",
+  "commit": "eb8d1f0ee0affc08b8800e1dfa8edab3bb700038",
+  "run_url": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-4/actions/runs/43228633828",
+  "run_command": [
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-4/DSA0110_SLOT-B-192471019-Assignment-4/build/sanitizer/Task04_safe_slicing"
+  ],
+  "run_exit": 0,
+  "ASAN_OPTIONS": "detect_leaks=1:halt_on_error=1:alloc_dealloc_mismatch=1:new_delete_type_mismatch=1",
+  "status": "PASS"
+}

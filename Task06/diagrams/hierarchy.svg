@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1570" viewBox="0 0 1600 1570">
+<rect width="100%" height="100%" fill="white"/>
+<defs><marker id="inherit" markerWidth="18" markerHeight="16" refX="17" refY="8" orient="auto"><path d="M1,1 L17,8 L1,15 Z" fill="white" stroke="#26384a" stroke-width="1.5"/></marker><marker id="owns" markerWidth="20" markerHeight="12" refX="1" refY="6" orient="auto"><path d="M1,6 L9,1 L17,6 L9,11 Z" fill="#26384a"/></marker></defs>
+<polyline points="185.0,400 185,350 760,350 760.0,240" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<polyline points="775.0,400 760.0,240" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<polyline points="950,464.0 1080,464.0" fill="none" stroke="#26384a" stroke-width="2" marker-start="url(#owns)"/>
+<text x="1015.0" y="456.0" text-anchor="middle" font-family="Arial" font-size="17" fill="#374151">service date</text>
+<polyline points="400.0,650 400,590 775,590 775.0,528" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<polyline points="1255.0,650 1255,590 775,590 775.0,528" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<polyline points="590,737.0 630,795.5" fill="none" stroke="#26384a" stroke-width="2" marker-start="url(#owns)"/>
+<polyline points="1040,737.0 970,795.5" fill="none" stroke="#26384a" stroke-width="2" marker-start="url(#owns)"/>
+<polyline points="170.0,1020 170,940 400,940 400.0,824" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<polyline points="515.0,1020 515,940 400,940 400.0,824" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<polyline points="1080.0,1020 1080,940 1255,940 1255.0,824" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<polyline points="1415.0,1020 1415,940 1255,940 1255.0,824" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<text x="1423.0" y="972.0" text-anchor="start" font-family="Arial" font-size="17" fill="#374151">extension</text>
+<polyline points="515.0,1148 515,1240 865,1240 865.0,1300" fill="none" stroke="#26384a" stroke-width="2" marker-start="url(#owns)"/>
+<polyline points="1080.0,1148 1080,1240 865,1240 865.0,1300" fill="none" stroke="#26384a" stroke-width="2" marker-start="url(#owns)"/>
+<polyline points="1415.0,1171 1415,1260 865,1260 865.0,1300" fill="none" stroke="#26384a" stroke-width="2" marker-start="url(#owns)"/>
+<polyline points="40,1378.5 15,1380 15,130 540,130.0" fill="none" stroke="#26384a" stroke-width="2" marker-start="url(#owns)"/>
+<rect x="540" y="20" width="440" height="220" rx="2" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="760.0" y="49" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">&lt;&lt;abstract&gt;&gt; Vehicle</text>
+<path d="M540,64 H980" stroke="#26384a"/>
+<text x="552" y="88" font-family="Arial" font-size="17">- registration_: string</text>
+<text x="552" y="111" font-family="Arial" font-size="17">- dailyRate_: double</text>
+<text x="552" y="134" font-family="Arial" font-size="17">- rented_: bool; - bookedDays_: int</text>
+<path d="M540,149 H980" stroke="#26384a"/>
+<text x="552" y="172" font-family="Arial" font-size="17">+ rent(days), returnRental(days, units)</text>
+<text x="552" y="195" font-family="Arial" font-size="17">+ charge(days, units): Bill = 0</text>
+<text x="552" y="218" font-family="Arial" font-size="17">+ kind(): text = 0; + virtual ~Vehicle()</text>
+<rect x="30" y="400" width="310" height="151" rx="2" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="185.0" y="429" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">Bicycle</text>
+<path d="M30,444 H340" stroke="#26384a"/>
+<text x="42" y="468" font-family="Arial" font-size="17">(no additional fields)</text>
+<path d="M30,483 H340" stroke="#26384a"/>
+<text x="42" y="506" font-family="Arial" font-size="17">+ charge(): daily only</text>
+<text x="42" y="529" font-family="Arial" font-size="17">+ kind()</text>
+<rect x="600" y="400" width="350" height="128" rx="2" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="775.0" y="429" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">&lt;&lt;abstract&gt;&gt; MotorVehicle</text>
+<path d="M600,444 H950" stroke="#26384a"/>
+<text x="612" y="468" font-family="Arial" font-size="17">- service_: ServiceDate</text>
+<path d="M600,483 H950" stroke="#26384a"/>
+<text x="612" y="506" font-family="Arial" font-size="17"># details()</text>
+<rect x="1080" y="400" width="390" height="128" rx="2" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="1275.0" y="429" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">ServiceDate</text>
+<path d="M1080,444 H1470" stroke="#26384a"/>
+<text x="1092" y="468" font-family="Arial" font-size="17">- year_, month_, day_: int</text>
+<path d="M1080,483 H1470" stroke="#26384a"/>
+<text x="1092" y="506" font-family="Arial" font-size="17">+ calendar validation; + text()</text>
+<rect x="210" y="650" width="380" height="174" rx="2" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="400.0" y="679" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">&lt;&lt;abstract&gt;&gt; FuelVehicle</text>
+<path d="M210,694 H590" stroke="#26384a"/>
+<text x="222" y="718" font-family="Arial" font-size="17">- tank_: EnergyStore (litres)</text>
+<text x="222" y="741" font-family="Arial" font-size="17">- pricePerLitre_: double</text>
+<path d="M210,756 H590" stroke="#26384a"/>
+<text x="222" y="779" font-family="Arial" font-size="17"># fuelCost(litres)</text>
+<text x="222" y="802" font-family="Arial" font-size="17">+ fuelLevel(); # consume(litres)</text>
+<rect x="1040" y="650" width="430" height="174" rx="2" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="1255.0" y="679" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">&lt;&lt;abstract&gt;&gt; ElectricVehicle</text>
+<path d="M1040,694 H1470" stroke="#26384a"/>
+<text x="1052" y="718" font-family="Arial" font-size="17">- battery_: EnergyStore (kWh)</text>
+<text x="1052" y="741" font-family="Arial" font-size="17">- pricePerKWh_: double</text>
+<path d="M1040,756 H1470" stroke="#26384a"/>
+<text x="1052" y="779" font-family="Arial" font-size="17"># electricityCost(kWh)</text>
+<text x="1052" y="802" font-family="Arial" font-size="17">+ capacity/level(); # consume(kWh)</text>
+<rect x="630" y="720" width="340" height="151" rx="2" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="800.0" y="749" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">EnergyStore</text>
+<path d="M630,764 H970" stroke="#26384a"/>
+<text x="642" y="788" font-family="Arial" font-size="17">- capacity_, level_: double</text>
+<path d="M630,803 H970" stroke="#26384a"/>
+<text x="642" y="826" font-family="Arial" font-size="17">+ validate(units), consume(units)</text>
+<text x="642" y="849" font-family="Arial" font-size="17">+ capacity(), level()</text>
+<rect x="20" y="1020" width="300" height="128" rx="2" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="170.0" y="1049" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">TwoWheeler</text>
+<path d="M20,1064 H320" stroke="#26384a"/>
+<text x="32" y="1088" font-family="Arial" font-size="17">(no additional fields)</text>
+<path d="M20,1103 H320" stroke="#26384a"/>
+<text x="32" y="1126" font-family="Arial" font-size="17">+ charge(); + kind()</text>
+<rect x="370" y="1020" width="290" height="128" rx="2" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="515.0" y="1049" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">Car</text>
+<path d="M370,1064 H660" stroke="#26384a"/>
+<text x="382" y="1088" font-family="Arial" font-size="17">- seating_: Seating</text>
+<path d="M370,1103 H660" stroke="#26384a"/>
+<text x="382" y="1126" font-family="Arial" font-size="17">+ charge(); + kind()</text>
+<rect x="930" y="1020" width="300" height="128" rx="2" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="1080.0" y="1049" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">ElectricCar</text>
+<path d="M930,1064 H1230" stroke="#26384a"/>
+<text x="942" y="1088" font-family="Arial" font-size="17">- seating_: Seating</text>
+<path d="M930,1103 H1230" stroke="#26384a"/>
+<text x="942" y="1126" font-family="Arial" font-size="17">+ charge(); + kind()</text>
+<rect x="1260" y="1020" width="310" height="151" rx="2" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="1415.0" y="1049" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">ElectricBus</text>
+<path d="M1260,1064 H1570" stroke="#26384a"/>
+<text x="1272" y="1088" font-family="Arial" font-size="17">- seating_: Seating</text>
+<path d="M1260,1103 H1570" stroke="#26384a"/>
+<text x="1272" y="1126" font-family="Arial" font-size="17">+ charge(); + kind()</text>
+<text x="1272" y="1149" font-family="Arial" font-size="17">(new extension file only)</text>
+<rect x="700" y="1300" width="330" height="128" rx="2" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="865.0" y="1329" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">Seating</text>
+<path d="M700,1344 H1030" stroke="#26384a"/>
+<text x="712" y="1368" font-family="Arial" font-size="17">- seats_: int</text>
+<path d="M700,1383 H1030" stroke="#26384a"/>
+<text x="712" y="1406" font-family="Arial" font-size="17">+ seats()</text>
+<rect x="40" y="1280" width="550" height="197" rx="2" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="315.0" y="1309" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">Fleet</text>
+<path d="M40,1324 H590" stroke="#26384a"/>
+<text x="52" y="1348" font-family="Arial" font-size="17">- vehicles_[8]: Vehicle* (borrowed views)</text>
+<text x="52" y="1371" font-family="Arial" font-size="17">- owners_[8]: unique_ptr&lt;Vehicle&gt;</text>
+<text x="52" y="1394" font-family="Arial" font-size="17">- count_: size_t</text>
+<path d="M40,1409 H590" stroke="#26384a"/>
+<text x="52" y="1432" font-family="Arial" font-size="17">+ add(owner); + find(registration)</text>
+<text x="52" y="1455" font-family="Arial" font-size="17">+ rent(), returnRental(), list()</text>
+</svg>

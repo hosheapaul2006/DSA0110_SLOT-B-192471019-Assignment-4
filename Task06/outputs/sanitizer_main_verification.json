@@ -1,0 +1,34 @@
+{
+  "headers_sha256": {
+    "Task06/fleet.hpp": "3168c98632c88a4e129fa258c73c622984aa55bd7e7a3fad261cfd6bcfb56485",
+    "tools/checks.hpp": "41305e8577c46073bce3087490d172e99b7c7d24dc45f3c4934798f53fc5414a"
+  },
+  "source": "Task06/main.cpp",
+  "sha256": "2bd2290ee9c43e002262848dc6f6ee739f9e3b632af5e01b0b5e9f3da808b974",
+  "compile_command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-g",
+    "-O1",
+    "-fsanitize=address",
+    "-fno-omit-frame-pointer",
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-4/DSA0110_SLOT-B-192471019-Assignment-4/Task06/main.cpp",
+    "-o",
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-4/DSA0110_SLOT-B-192471019-Assignment-4/build/sanitizer/Task06_main"
+  ],
+  "compile_exit": 0,
+  "timestamp_utc": "2026-11-12T13:34:56.728120+00:00",
+  "expected_error_pattern": null,
+  "runner": "GitHub Actions Ubuntu 24.04",
+  "commit": "eb8d1f0ee0affc08b8800e1dfa8edab3bb700038",
+  "run_url": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-4/actions/runs/43228633828",
+  "run_command": [
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-4/DSA0110_SLOT-B-192471019-Assignment-4/build/sanitizer/Task06_main"
+  ],
+  "run_exit": 0,
+  "ASAN_OPTIONS": "detect_leaks=1:halt_on_error=1:alloc_dealloc_mismatch=1:new_delete_type_mismatch=1",
+  "status": "PASS"
+}

@@ -1,0 +1,8 @@
++Account
++SeniorAccount
+Direct=4 base=3.5 sliced=3.5
+sizeof base=1 senior=8
+~Account
+~SeniorAccount (release history)
+~Account
+

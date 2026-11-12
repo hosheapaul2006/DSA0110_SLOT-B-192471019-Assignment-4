@@ -1,0 +1,4 @@
+ElectricBus base=10000.00 late=7500.00 electricity=200.00 total=17700.00
+EB1 ElectricBus daily=5000.00 state=available serviceDue=2027-01-15 batteryKWh=230.00/300.00 chargePercent=76.67 seats=40
+B2 Bicycle daily=100.00 state=available
+

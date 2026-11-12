@@ -1,0 +1,16 @@
+{
+  "base_source": "Task03/nonvirtual_experiment.cpp",
+  "submitted_source": "Task03/online_nonvirtual_experiment.cpp",
+  "local_stdout": "Task03/outputs/online_nonvirtual_experiment_actual.txt",
+  "output_stem": "nonvirtual_experiment",
+  "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific",
+  "sha256": "ef131d6e1f0e06fb96577b6d5b6935ec3e89d748336856459d4e6b70991e6317",
+  "timestamp_utc": "2026-11-12T13:36:09.541Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "comparison_detail": "Exact fixed characters after CRLF decoding; separately validated platform-specific sizeof/address numbers; trailing UI blank space/success banner allowed.",
+  "screenshots": [
+    "Task03/screenshots/nonvirtual_experiment_programiz.jpg",
+    "Task03/screenshots/nonvirtual_experiment_programiz_source_top.jpg"
+  ]
+}

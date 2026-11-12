@@ -1,0 +1,1778 @@
+{
+  "timestamp_utc": "2026-11-12T13:49:46.213672+00:00",
+  "base_compiled_programs": 25,
+  "base_normal_executions": 24,
+  "compiled_source_files_including_browser_builds": 40,
+  "normal_build_run_records": 39,
+  "expected_compiler_error_sources": 2,
+  "runtime_check_evaluations": 325,
+  "base_runtime_check_evaluations": 167,
+  "recorded_evaluations_including_diagnostics": 327,
+  "programiz_programs": 24,
+  "genuine_screenshots": 39,
+  "sanitizer_cases": 14,
+  "sanitizer_clean_cases": 13,
+  "sanitizer_expected_error_cases": 1,
+  "audit_checks": [
+    {
+      "requirement": "Task01/online_redesigned.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task01\\outputs\\online_redesigned_verification.json"
+    },
+    {
+      "requirement": "Task01/online_redesigned.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task01/online_redesigned.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task01/online_redesigned.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task01/online_switch_alternative.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task01\\outputs\\online_switch_alternative_verification.json"
+    },
+    {
+      "requirement": "Task01/online_switch_alternative.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task01/online_switch_alternative.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task01/online_switch_alternative.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task01/original_design.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task01\\outputs\\original_design_verification.json"
+    },
+    {
+      "requirement": "Task01/original_design.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task01/original_design.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task01/original_design.cpp exact expected output",
+      "status": "PASS",
+      "evidence": "Only text-mode CRLF decoding"
+    },
+    {
+      "requirement": "Task01/redesigned.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task01\\outputs\\redesigned_verification.json"
+    },
+    {
+      "requirement": "Task01/redesigned.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task01/redesigned.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task01/redesigned.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task01/switch_alternative.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task01\\outputs\\switch_alternative_verification.json"
+    },
+    {
+      "requirement": "Task01/switch_alternative.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task01/switch_alternative.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task01/switch_alternative.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task02/access_experiment.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\access_experiment_verification.json"
+    },
+    {
+      "requirement": "Task02/access_experiment.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task02/access_experiment.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task02/access_experiment.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task02/ambiguity.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\ambiguity_verification.json"
+    },
+    {
+      "requirement": "Task02/ambiguity.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task02/ambiguity.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 1"
+    },
+    {
+      "requirement": "Task02/composition_alternative.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\composition_alternative_verification.json"
+    },
+    {
+      "requirement": "Task02/composition_alternative.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task02/composition_alternative.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task02/composition_alternative.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task02/diamond_experiment.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\diamond_experiment_verification.json"
+    },
+    {
+      "requirement": "Task02/diamond_experiment.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task02/diamond_experiment.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task02/diamond_experiment.cpp exact expected output",
+      "status": "PASS",
+      "evidence": "Only text-mode CRLF decoding"
+    },
+    {
+      "requirement": "Task02/main.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\main_verification.json"
+    },
+    {
+      "requirement": "Task02/main.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task02/main.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task02/main.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task02/online_access_experiment.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\online_access_experiment_verification.json"
+    },
+    {
+      "requirement": "Task02/online_access_experiment.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task02/online_access_experiment.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task02/online_access_experiment.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task02/online_composition_alternative.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\online_composition_alternative_verification.json"
+    },
+    {
+      "requirement": "Task02/online_composition_alternative.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task02/online_composition_alternative.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task02/online_composition_alternative.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task02/online_main.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\online_main_verification.json"
+    },
+    {
+      "requirement": "Task02/online_main.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task02/online_main.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task02/online_main.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task02/predict_output.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task02\\outputs\\predict_output_verification.json"
+    },
+    {
+      "requirement": "Task02/predict_output.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task02/predict_output.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task02/predict_output.cpp exact expected output",
+      "status": "PASS",
+      "evidence": "Only text-mode CRLF decoding"
+    },
+    {
+      "requirement": "Task03/complete_code.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\complete_code_verification.json"
+    },
+    {
+      "requirement": "Task03/complete_code.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task03/complete_code.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task03/complete_code.cpp exact expected output",
+      "status": "PASS",
+      "evidence": "Only text-mode CRLF decoding"
+    },
+    {
+      "requirement": "Task03/constructor_experiments/reordered.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\constructor_experiments_reordered_verification.json"
+    },
+    {
+      "requirement": "Task03/constructor_experiments/reordered.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task03/constructor_experiments/reordered.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task03/constructor_experiments/reordered.cpp exact expected output",
+      "status": "PASS",
+      "evidence": "Only text-mode CRLF decoding"
+    },
+    {
+      "requirement": "Task03/main.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\main_verification.json"
+    },
+    {
+      "requirement": "Task03/main.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task03/main.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task03/main.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task03/nonvirtual_experiment.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\nonvirtual_experiment_verification.json"
+    },
+    {
+      "requirement": "Task03/nonvirtual_experiment.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task03/nonvirtual_experiment.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task03/nonvirtual_experiment.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task03/online_main.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\online_main_verification.json"
+    },
+    {
+      "requirement": "Task03/online_main.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task03/online_main.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task03/online_main.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task03/online_nonvirtual_experiment.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\online_nonvirtual_experiment_verification.json"
+    },
+    {
+      "requirement": "Task03/online_nonvirtual_experiment.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task03/online_nonvirtual_experiment.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task03/online_nonvirtual_experiment.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task03/online_owning_address.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\online_owning_address_verification.json"
+    },
+    {
+      "requirement": "Task03/online_owning_address.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task03/online_owning_address.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task03/online_owning_address.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task03/owning_address.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\owning_address_verification.json"
+    },
+    {
+      "requirement": "Task03/owning_address.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task03/owning_address.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task03/owning_address.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task03/predict_output.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task03\\outputs\\predict_output_verification.json"
+    },
+    {
+      "requirement": "Task03/predict_output.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task03/predict_output.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task03/predict_output.cpp exact expected output",
+      "status": "PASS",
+      "evidence": "Only text-mode CRLF decoding"
+    },
+    {
+      "requirement": "Task04/online_repaired.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task04\\outputs\\online_repaired_verification.json"
+    },
+    {
+      "requirement": "Task04/online_repaired.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task04/online_repaired.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task04/online_repaired.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task04/online_safe_slicing.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task04\\outputs\\online_safe_slicing_verification.json"
+    },
+    {
+      "requirement": "Task04/online_safe_slicing.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task04/online_safe_slicing.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task04/online_safe_slicing.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task04/original.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task04\\outputs\\original_verification.json"
+    },
+    {
+      "requirement": "Task04/original.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task04/original.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task04/predict_output.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task04\\outputs\\predict_output_verification.json"
+    },
+    {
+      "requirement": "Task04/predict_output.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task04/predict_output.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task04/predict_output.cpp exact expected output",
+      "status": "PASS",
+      "evidence": "Only text-mode CRLF decoding"
+    },
+    {
+      "requirement": "Task04/repaired.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task04\\outputs\\repaired_verification.json"
+    },
+    {
+      "requirement": "Task04/repaired.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task04/repaired.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task04/repaired.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task04/safe_slicing.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task04\\outputs\\safe_slicing_verification.json"
+    },
+    {
+      "requirement": "Task04/safe_slicing.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task04/safe_slicing.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task04/safe_slicing.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task04/slicing_rejected.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task04\\outputs\\slicing_rejected_verification.json"
+    },
+    {
+      "requirement": "Task04/slicing_rejected.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task04/slicing_rejected.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 1"
+    },
+    {
+      "requirement": "Task05/complete_code.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\complete_code_verification.json"
+    },
+    {
+      "requirement": "Task05/complete_code.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task05/complete_code.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task05/complete_code.cpp exact expected output",
+      "status": "PASS",
+      "evidence": "Only text-mode CRLF decoding"
+    },
+    {
+      "requirement": "Task05/main.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\main_verification.json"
+    },
+    {
+      "requirement": "Task05/main.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task05/main.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task05/main.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task05/online_main.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\online_main_verification.json"
+    },
+    {
+      "requirement": "Task05/online_main.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task05/online_main.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task05/online_main.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task05/online_pointer_experiments.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\online_pointer_experiments_verification.json"
+    },
+    {
+      "requirement": "Task05/online_pointer_experiments.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task05/online_pointer_experiments.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task05/online_pointer_experiments.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task05/pointer_experiments.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\pointer_experiments_verification.json"
+    },
+    {
+      "requirement": "Task05/pointer_experiments.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task05/pointer_experiments.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task05/pointer_experiments.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task05/return_by_value.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task05\\outputs\\return_by_value_verification.json"
+    },
+    {
+      "requirement": "Task05/return_by_value.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task05/return_by_value.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task05/return_by_value.cpp exact expected output",
+      "status": "PASS",
+      "evidence": "Only text-mode CRLF decoding"
+    },
+    {
+      "requirement": "Task06/extension_demo.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\extension_demo_verification.json"
+    },
+    {
+      "requirement": "Task06/extension_demo.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task06/extension_demo.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task06/extension_demo.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task06/main.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\main_verification.json"
+    },
+    {
+      "requirement": "Task06/main.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task06/main.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task06/main.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task06/online_extension_demo.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\online_extension_demo_verification.json"
+    },
+    {
+      "requirement": "Task06/online_extension_demo.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task06/online_extension_demo.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task06/online_extension_demo.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task06/online_main.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\online_main_verification.json"
+    },
+    {
+      "requirement": "Task06/online_main.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task06/online_main.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task06/online_main.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task06/online_switch_alternative.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\online_switch_alternative_verification.json"
+    },
+    {
+      "requirement": "Task06/online_switch_alternative.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task06/online_switch_alternative.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task06/online_switch_alternative.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "Task06/switch_alternative.cpp source hash",
+      "status": "PASS",
+      "evidence": "Task06\\outputs\\switch_alternative_verification.json"
+    },
+    {
+      "requirement": "Task06/switch_alternative.cpp dependencies",
+      "status": "PASS",
+      "evidence": "Exact local include graph hashes"
+    },
+    {
+      "requirement": "Task06/switch_alternative.cpp compile observation",
+      "status": "PASS",
+      "evidence": "Actual compile exit 0"
+    },
+    {
+      "requirement": "Task06/switch_alternative.cpp runtime checks",
+      "status": "PASS",
+      "evidence": "Actual exit 0 and logged check count"
+    },
+    {
+      "requirement": "every independent source has a record",
+      "status": "PASS",
+      "evidence": "All base, derived, diagnostic and isolated-only sources"
+    },
+    {
+      "requirement": "Task02/predict_output.cpp immutable prediction",
+      "status": "PASS",
+      "evidence": "Pre-execution commit a648fec"
+    },
+    {
+      "requirement": "Task02/prediction_before_execution.md immutable prediction",
+      "status": "PASS",
+      "evidence": "Pre-execution commit a648fec"
+    },
+    {
+      "requirement": "Task02/outputs/predict_output_predicted.txt immutable prediction",
+      "status": "PASS",
+      "evidence": "Pre-execution commit a648fec"
+    },
+    {
+      "requirement": "Task02/diamond_experiment.cpp immutable prediction",
+      "status": "PASS",
+      "evidence": "Pre-execution commit a648fec"
+    },
+    {
+      "requirement": "Task02/outputs/diamond_experiment_predicted.txt immutable prediction",
+      "status": "PASS",
+      "evidence": "Pre-execution commit a648fec"
+    },
+    {
+      "requirement": "Task2 supplied prediction source preserved",
+      "status": "PASS",
+      "evidence": "Extracted original source"
+    },
+    {
+      "requirement": "Task2 predict_output prediction chronology",
+      "status": "PASS",
+      "evidence": "Prediction commit precedes actual execution record"
+    },
+    {
+      "requirement": "Task2 diamond_experiment prediction chronology",
+      "status": "PASS",
+      "evidence": "Prediction commit precedes actual execution record"
+    },
+    {
+      "requirement": "Task03/predict_output.cpp immutable prediction",
+      "status": "PASS",
+      "evidence": "Pre-execution commit a5865f7"
+    },
+    {
+      "requirement": "Task03/prediction_before_execution.md immutable prediction",
+      "status": "PASS",
+      "evidence": "Pre-execution commit a5865f7"
+    },
+    {
+      "requirement": "Task03/outputs/predict_output_predicted.txt immutable prediction",
+      "status": "PASS",
+      "evidence": "Pre-execution commit a5865f7"
+    },
+    {
+      "requirement": "Task3 supplied prediction source preserved",
+      "status": "PASS",
+      "evidence": "Extracted original source"
+    },
+    {
+      "requirement": "Task3 predict_output prediction chronology",
+      "status": "PASS",
+      "evidence": "Prediction commit precedes actual execution record"
+    },
+    {
+      "requirement": "Task04/predict_output.cpp immutable prediction",
+      "status": "PASS",
+      "evidence": "Pre-execution commit bb0d9aa"
+    },
+    {
+      "requirement": "Task04/prediction_before_execution.md immutable prediction",
+      "status": "PASS",
+      "evidence": "Pre-execution commit bb0d9aa"
+    },
+    {
+      "requirement": "Task04/outputs/predict_output_predicted.txt immutable prediction",
+      "status": "PASS",
+      "evidence": "Pre-execution commit bb0d9aa"
+    },
+    {
+      "requirement": "Task4 supplied prediction source preserved",
+      "status": "PASS",
+      "evidence": "Extracted original source"
+    },
+    {
+      "requirement": "Task4 predict_output prediction chronology",
+      "status": "PASS",
+      "evidence": "Prediction commit precedes actual execution record"
+    },
+    {
+      "requirement": "Task2 only virtual keywords removed",
+      "status": "PASS",
+      "evidence": "Exact modified supplied source"
+    },
+    {
+      "requirement": "Task3 TODO-only preservation",
+      "status": "PASS",
+      "evidence": "All supplied bytes outside replaced TODO regions preserved"
+    },
+    {
+      "requirement": "Task5 TODO-only preservation",
+      "status": "PASS",
+      "evidence": "All supplied bytes outside replaced TODO regions preserved"
+    },
+    {
+      "requirement": "Task5 by-value experiment isolated",
+      "status": "PASS",
+      "evidence": "Only return type changed"
+    },
+    {
+      "requirement": "Task06/fleet.hpp unchanged for ElectricBus",
+      "status": "PASS",
+      "evidence": "Actual committed pre-extension baseline"
+    },
+    {
+      "requirement": "Task06/main.cpp unchanged for ElectricBus",
+      "status": "PASS",
+      "evidence": "Actual committed pre-extension baseline"
+    },
+    {
+      "requirement": "Task06/switch_alternative.cpp unchanged for ElectricBus",
+      "status": "PASS",
+      "evidence": "Actual committed pre-extension baseline"
+    },
+    {
+      "requirement": "ElectricBus is a new extension file",
+      "status": "PASS",
+      "evidence": "Baseline contains no bus implementation"
+    },
+    {
+      "requirement": "Task01/original_design.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task01/original_design.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task01/original_design.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task01/screenshots/original_design_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 cca29d3badb1e17841e422dede611196dcf607ec132270f1e5f63c25e07acc54"
+    },
+    {
+      "requirement": "Task01/redesigned.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task01/redesigned.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task01/redesigned.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task01/screenshots/redesigned_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 3bf0ac998103422ba50b74a827b9ec5c5313a4429bc149aa3e7e08c1e6e97229"
+    },
+    {
+      "requirement": "Task01/screenshots/redesigned_programiz_source_top.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 46ec2e80aae7ec928a43a5a377e3cbbf5e31a901d40d2080e58983ca14006e02"
+    },
+    {
+      "requirement": "Task01/switch_alternative.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task01/switch_alternative.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task01/switch_alternative.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task01/screenshots/switch_alternative_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 40baf0778f0b5924117e6e88bb5ca975a5294872efeb5a23432a697d766cdfc7"
+    },
+    {
+      "requirement": "Task01/screenshots/switch_alternative_programiz_source_top.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 d464cc98c166afdf26c2bb8997cfaa3298e93fdfcea314594f055f1ce9706a37"
+    },
+    {
+      "requirement": "Task02/access_experiment.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task02/access_experiment.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task02/access_experiment.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task02/screenshots/access_experiment_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 7f7a10c74205428957c00e7a094b716c8fc7e557726db5e3668f70417c6f50ef"
+    },
+    {
+      "requirement": "Task02/composition_alternative.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task02/composition_alternative.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task02/composition_alternative.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task02/screenshots/composition_alternative_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 2daa4c1366ec5422ee8764f01b96753875f0412f992d378c155f53698dbe7809"
+    },
+    {
+      "requirement": "Task02/screenshots/composition_alternative_programiz_source_top.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 7fbc193c0d5a0ea0b21f1661f73324107ba4a527c79e4b51e4ff458b995ab09e"
+    },
+    {
+      "requirement": "Task02/diamond_experiment.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task02/diamond_experiment.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task02/diamond_experiment.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task02/screenshots/diamond_experiment_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 89160d55ef2b6e482bd6b62e96e3e9f85df9321ebfc10a5447c3fbddac67a587"
+    },
+    {
+      "requirement": "Task02/main.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task02/main.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task02/main.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task02/screenshots/main_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 c957fd7e9e8b036cd44fa237dc4e4cc813736d89ecc26c442d310d78c6175391"
+    },
+    {
+      "requirement": "Task02/screenshots/main_programiz_source_top.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 fef93554af9c0ddbf5ad0de9fd5a6d8f4c370eaf08d0f7f7f4548e6bfa22164a"
+    },
+    {
+      "requirement": "Task02/predict_output.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task02/predict_output.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task02/predict_output.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task02/screenshots/predict_output_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 d8776a5cd463e88a2bd1701c3f02eb022c43c39acbee64f1a40ebeec744f4e5c"
+    },
+    {
+      "requirement": "Task03/complete_code.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task03/complete_code.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task03/complete_code.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task03/screenshots/complete_code_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 0a9a5a2aa37e43affefa805b6f7d4d1cfde7709a04038973c6202e663ac97d12"
+    },
+    {
+      "requirement": "Task03/constructor_experiments/reordered.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task03/constructor_experiments/reordered.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task03/constructor_experiments/reordered.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task03/screenshots/constructor_experiments_reordered_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 616494c60b1e3a551ae9d448bd563c3a1de0787f74f8468b1aecd1bf26dae1bf"
+    },
+    {
+      "requirement": "Task03/main.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task03/main.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task03/main.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task03/screenshots/main_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 89c023936e7002d59bcf7b838df2d9784b81f72ec5aeda3f4434f5fd1010eb7c"
+    },
+    {
+      "requirement": "Task03/screenshots/main_programiz_source_top.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 7e98eeb2cbd33b986c9c0563a95bfe8b34a0244bf9bf253ddd5d203479f27706"
+    },
+    {
+      "requirement": "Task03/nonvirtual_experiment.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task03/nonvirtual_experiment.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task03/nonvirtual_experiment.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task03/screenshots/nonvirtual_experiment_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 bdbd35ecca6270c40f2f5e444ce8c5f939748781dd76e831bd7ebeab093f059e"
+    },
+    {
+      "requirement": "Task03/screenshots/nonvirtual_experiment_programiz_source_top.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 0bcb4f69205470f34a1b200375467cd8bf9e0c1fbd1bbe9e80c280cb47cba370"
+    },
+    {
+      "requirement": "Task03/owning_address.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task03/owning_address.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task03/owning_address.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task03/screenshots/owning_address_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 3b2308b0c3f14ef6098431cf3220e4e9639ae6aaff6533281508c32bdd6cc123"
+    },
+    {
+      "requirement": "Task03/predict_output.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task03/predict_output.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task03/predict_output.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task03/screenshots/predict_output_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 dca7aae1a6c45274ea7df4ccd0d0666dda104bc2087a7e8d29bb5ecf29d6dd8d"
+    },
+    {
+      "requirement": "Task04/predict_output.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task04/predict_output.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task04/predict_output.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task04/screenshots/predict_output_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 a80d41f9d8320b82374648a157491280db8e5725b2cdd03916f2f866cd9d812e"
+    },
+    {
+      "requirement": "Task04/repaired.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task04/repaired.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task04/repaired.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task04/screenshots/repaired_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 f4b8d6f6c6a8e899fd3c88bf54a200ffb7040122c8746ac53a8ebf60d35f650b"
+    },
+    {
+      "requirement": "Task04/screenshots/repaired_programiz_source_top.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 63f4acf3131b315da9d730c5a29626ec927c8cb1ce64d19dd7d98f248de3e8ed"
+    },
+    {
+      "requirement": "Task04/safe_slicing.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task04/safe_slicing.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task04/safe_slicing.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task04/screenshots/safe_slicing_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 54d539c85e123f3903631591b8f8d0bc2b74cfbbfbf875444a84076f127e336a"
+    },
+    {
+      "requirement": "Task05/complete_code.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task05/complete_code.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task05/complete_code.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task05/screenshots/complete_code_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 7d563221c1dec0ea6a29d41f4f95aba422b5450932f2604b60e28a8ad420963b"
+    },
+    {
+      "requirement": "Task05/main.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task05/main.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task05/main.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task05/screenshots/main_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 16e8dd595548089cdf3bf25895da2f93677207412cf3cb6a3bce558c54f83768"
+    },
+    {
+      "requirement": "Task05/screenshots/main_programiz_source_top.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 bf2bb32980dcaab9315523becfb7079b82af77c1825b15ec18d9d0a010def6e3"
+    },
+    {
+      "requirement": "Task05/pointer_experiments.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task05/pointer_experiments.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task05/pointer_experiments.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task05/screenshots/pointer_experiments_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 c5dc2c88e2655db4a627a70225774157125c9d6d22b6bace2d75e5dec48df91b"
+    },
+    {
+      "requirement": "Task05/screenshots/pointer_experiments_programiz_source_top.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 744ef42152c1fa5557e6b0bdb2b7e40a4f25ffdb889b48a9a0a9bf881fd2d6db"
+    },
+    {
+      "requirement": "Task05/return_by_value.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task05/return_by_value.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task05/return_by_value.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task05/screenshots/return_by_value_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 4ad051e403570ed59a8a818f7280f5d7b55173fca025934ae1b9092406acdd55"
+    },
+    {
+      "requirement": "Task06/extension_demo.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task06/extension_demo.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task06/extension_demo.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task06/screenshots/extension_demo_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 ae1a743f95e2c55e358cc8fd249adbc4d78303223ead74bac8a867426f34a682"
+    },
+    {
+      "requirement": "Task06/screenshots/extension_demo_programiz_source_top.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 401b4f6b37984fdbc5c10bea8981be2ab054fc50ba7f5f67a998e70ad5ab50f0"
+    },
+    {
+      "requirement": "Task06/screenshots/extension_demo_programiz_hierarchy.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 9dd73a011caf2aae6fa4aa09d2234ccf81363b305d8e97b50bfe63f9b4616096"
+    },
+    {
+      "requirement": "Task06/main.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task06/main.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task06/main.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task06/screenshots/main_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 783f034a81982aef2a0c3db7fbdac597662764a979f4bf4b7c88966672a518c9"
+    },
+    {
+      "requirement": "Task06/screenshots/main_programiz_source_top.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 d5584274c3fd60071cf0fc0bde5d0b26a555b69586d9717ab026dc6108ff9167"
+    },
+    {
+      "requirement": "Task06/screenshots/main_programiz_hierarchy.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 473fb52b1795db6ccc19ca4187337c4247c55a89a26bad193020da3709b5c1d6"
+    },
+    {
+      "requirement": "Task06/switch_alternative.cpp Programiz source",
+      "status": "PASS",
+      "evidence": "Exact source pasted through browser"
+    },
+    {
+      "requirement": "Task06/switch_alternative.cpp Programiz output",
+      "status": "PASS",
+      "evidence": "Fixed characters exact; platform observations explicitly separated"
+    },
+    {
+      "requirement": "Task06/switch_alternative.cpp screenshot records",
+      "status": "PASS",
+      "evidence": "Saved after actual Run"
+    },
+    {
+      "requirement": "Task06/screenshots/switch_alternative_programiz.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 350ab5b9dc24afbc289301bc60b2ff669bbc59b71366c82cb0dc0e0d1c03cc6d"
+    },
+    {
+      "requirement": "Task06/screenshots/switch_alternative_programiz_source_top.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 594ca7f1782cba2878d204d8abb2a64aafaedf5c871008d0a6119fcf1438c90a"
+    },
+    {
+      "requirement": "Task06/screenshots/switch_alternative_programiz_hierarchy.jpg genuine JPEG artifact",
+      "status": "PASS",
+      "evidence": "Browser-captured file SHA256 9026876678bfdd4aa35e4b3f18b260e2ab663c75d26893947eae7082af84e26b"
+    },
+    {
+      "requirement": "all screenshot artifacts indexed",
+      "status": "PASS",
+      "evidence": "Every capture has source/output provenance"
+    },
+    {
+      "requirement": "Task01/redesigned.cpp actual sanitizer code",
+      "status": "PASS",
+      "evidence": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-4/actions/runs/43228633828"
+    },
+    {
+      "requirement": "Task01/redesigned.cpp sanitizer observation",
+      "status": "PASS",
+      "evidence": "Actual exit 0"
+    },
+    {
+      "requirement": "Task02/main.cpp actual sanitizer code",
+      "status": "PASS",
+      "evidence": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-4/actions/runs/43228633828"
+    },
+    {
+      "requirement": "Task02/main.cpp sanitizer observation",
+      "status": "PASS",
+      "evidence": "Actual exit 0"
+    },
+    {
+      "requirement": "Task03/main.cpp actual sanitizer code",
+      "status": "PASS",
+      "evidence": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-4/actions/runs/43228633828"
+    },
+    {
+      "requirement": "Task03/main.cpp sanitizer observation",
+      "status": "PASS",
+      "evidence": "Actual exit 0"
+    },
+    {
+      "requirement": "Task03/nonvirtual_experiment.cpp actual sanitizer code",
+      "status": "PASS",
+      "evidence": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-4/actions/runs/43228633828"
+    },
+    {
+      "requirement": "Task03/nonvirtual_experiment.cpp sanitizer observation",
+      "status": "PASS",
+      "evidence": "Actual exit 0"
+    },
+    {
+      "requirement": "Task03/owning_address.cpp actual sanitizer code",
+      "status": "PASS",
+      "evidence": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-4/actions/runs/43228633828"
+    },
+    {
+      "requirement": "Task03/owning_address.cpp sanitizer observation",
+      "status": "PASS",
+      "evidence": "Actual exit 0"
+    },
+    {
+      "requirement": "Task04/original.cpp actual sanitizer code",
+      "status": "PASS",
+      "evidence": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-4/actions/runs/43228633828"
+    },
+    {
+      "requirement": "Task04/original.cpp sanitizer observation",
+      "status": "PASS",
+      "evidence": "Actual exit 1"
+    },
+    {
+      "requirement": "Task04/safe_slicing.cpp actual sanitizer code",
+      "status": "PASS",
+      "evidence": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-4/actions/runs/43228633828"
+    },
+    {
+      "requirement": "Task04/safe_slicing.cpp sanitizer observation",
+      "status": "PASS",
+      "evidence": "Actual exit 0"
+    },
+    {
+      "requirement": "Task04/repaired.cpp actual sanitizer code",
+      "status": "PASS",
+      "evidence": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-4/actions/runs/43228633828"
+    },
+    {
+      "requirement": "Task04/repaired.cpp sanitizer observation",
+      "status": "PASS",
+      "evidence": "Actual exit 0"
+    },
+    {
+      "requirement": "Task05/main.cpp actual sanitizer code",
+      "status": "PASS",
+      "evidence": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-4/actions/runs/43228633828"
+    },
+    {
+      "requirement": "Task05/main.cpp sanitizer observation",
+      "status": "PASS",
+      "evidence": "Actual exit 0"
+    },
+    {
+      "requirement": "Task05/pointer_experiments.cpp actual sanitizer code",
+      "status": "PASS",
+      "evidence": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-4/actions/runs/43228633828"
+    },
+    {
+      "requirement": "Task05/pointer_experiments.cpp sanitizer observation",
+      "status": "PASS",
+      "evidence": "Actual exit 0"
+    },
+    {
+      "requirement": "Task05/complete_code.cpp actual sanitizer code",
+      "status": "PASS",
+      "evidence": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-4/actions/runs/43228633828"
+    },
+    {
+      "requirement": "Task05/complete_code.cpp sanitizer observation",
+      "status": "PASS",
+      "evidence": "Actual exit 0"
+    },
+    {
+      "requirement": "Task05/return_by_value.cpp actual sanitizer code",
+      "status": "PASS",
+      "evidence": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-4/actions/runs/43228633828"
+    },
+    {
+      "requirement": "Task05/return_by_value.cpp sanitizer observation",
+      "status": "PASS",
+      "evidence": "Actual exit 0"
+    },
+    {
+      "requirement": "Task06/main.cpp actual sanitizer code",
+      "status": "PASS",
+      "evidence": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-4/actions/runs/43228633828"
+    },
+    {
+      "requirement": "Task06/main.cpp sanitizer observation",
+      "status": "PASS",
+      "evidence": "Actual exit 0"
+    },
+    {
+      "requirement": "Task06/extension_demo.cpp actual sanitizer code",
+      "status": "PASS",
+      "evidence": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-4/actions/runs/43228633828"
+    },
+    {
+      "requirement": "Task06/extension_demo.cpp sanitizer observation",
+      "status": "PASS",
+      "evidence": "Actual exit 0"
+    },
+    {
+      "requirement": "Task01/explanation.md exists",
+      "status": "PASS",
+      "evidence": "Task-local supporting documentation"
+    },
+    {
+      "requirement": "Task01/test_cases.md exists",
+      "status": "PASS",
+      "evidence": "Task-local supporting documentation"
+    },
+    {
+      "requirement": "Task02/explanation.md exists",
+      "status": "PASS",
+      "evidence": "Task-local supporting documentation"
+    },
+    {
+      "requirement": "Task02/test_cases.md exists",
+      "status": "PASS",
+      "evidence": "Task-local supporting documentation"
+    },
+    {
+      "requirement": "Task03/explanation.md exists",
+      "status": "PASS",
+      "evidence": "Task-local supporting documentation"
+    },
+    {
+      "requirement": "Task03/test_cases.md exists",
+      "status": "PASS",
+      "evidence": "Task-local supporting documentation"
+    },
+    {
+      "requirement": "Task04/explanation.md exists",
+      "status": "PASS",
+      "evidence": "Task-local supporting documentation"
+    },
+    {
+      "requirement": "Task04/test_cases.md exists",
+      "status": "PASS",
+      "evidence": "Task-local supporting documentation"
+    },
+    {
+      "requirement": "Task05/explanation.md exists",
+      "status": "PASS",
+      "evidence": "Task-local supporting documentation"
+    },
+    {
+      "requirement": "Task05/test_cases.md exists",
+      "status": "PASS",
+      "evidence": "Task-local supporting documentation"
+    },
+    {
+      "requirement": "Task06/explanation.md exists",
+      "status": "PASS",
+      "evidence": "Task-local supporting documentation"
+    },
+    {
+      "requirement": "Task06/test_cases.md exists",
+      "status": "PASS",
+      "evidence": "Task-local supporting documentation"
+    },
+    {
+      "requirement": "Task01 UML SVG",
+      "status": "PASS",
+      "evidence": "Rendered layout visually reviewed; editable Mermaid also supplied"
+    },
+    {
+      "requirement": "Task02 UML SVG",
+      "status": "PASS",
+      "evidence": "Rendered layout visually reviewed; editable Mermaid also supplied"
+    },
+    {
+      "requirement": "Task06 UML SVG",
+      "status": "PASS",
+      "evidence": "Rendered layout visually reviewed; editable Mermaid also supplied"
+    },
+    {
+      "requirement": "Task1 defence word limit",
+      "status": "PASS",
+      "evidence": "73 words"
+    },
+    {
+      "requirement": "no outstanding C++ TODO markers",
+      "status": "PASS",
+      "evidence": "Original TODO context preserved only as reference text"
+    },
+    {
+      "requirement": "no report generated",
+      "status": "PASS",
+      "evidence": "Only unchanged input PDF exists"
+    },
+    {
+      "requirement": "no tracked build products",
+      "status": "PASS",
+      "evidence": "Tracked-file inventory"
+    },
+    {
+      "requirement": "README and requirement checklist",
+      "status": "PASS",
+      "evidence": "Repository navigation and traceable requirement status"
+    }
+  ]
+}

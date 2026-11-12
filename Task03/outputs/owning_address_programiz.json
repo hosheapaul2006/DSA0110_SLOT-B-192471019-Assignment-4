@@ -1,0 +1,15 @@
+{
+  "base_source": "Task03/owning_address.cpp",
+  "submitted_source": "Task03/online_owning_address.cpp",
+  "local_stdout": "Task03/outputs/online_owning_address_actual.txt",
+  "output_stem": "owning_address",
+  "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific",
+  "sha256": "1152bb11a8f75325844e958fba92eb14ad269cf290206c4e1b91160b4139e606",
+  "timestamp_utc": "2026-11-12T13:36:15.907Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "comparison_detail": "Exact fixed characters after CRLF decoding; separately validated platform-specific sizeof/address numbers; trailing UI blank space/success banner allowed.",
+  "screenshots": [
+    "Task03/screenshots/owning_address_programiz.jpg"
+  ]
+}

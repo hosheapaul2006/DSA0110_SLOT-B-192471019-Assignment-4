@@ -1,0 +1,3 @@
+Madurai Chennai Salem
+sizeof member=40 pointer owner=8 separately allocated Address=40
+

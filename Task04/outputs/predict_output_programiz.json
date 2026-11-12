@@ -1,0 +1,15 @@
+{
+  "base_source": "Task04/predict_output.cpp",
+  "submitted_source": "Task04/predict_output.cpp",
+  "local_stdout": "Task04/outputs/predict_output_actual.txt",
+  "output_stem": "predict_output",
+  "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific",
+  "sha256": "bf67554aaf4adb76e4758c11cf94c6561d6acf091c4b6adbe907de65271b650c",
+  "timestamp_utc": "2026-11-12T13:36:48.413Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "comparison_detail": "Exact fixed characters after CRLF decoding; separately validated platform-specific sizeof/address numbers; trailing UI blank space/success banner allowed.",
+  "screenshots": [
+    "Task04/screenshots/predict_output_programiz.jpg"
+  ]
+}

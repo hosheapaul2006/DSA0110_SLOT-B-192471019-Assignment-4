@@ -1,0 +1,15 @@
+{
+  "base_source": "Task05/return_by_value.cpp",
+  "submitted_source": "Task05/return_by_value.cpp",
+  "local_stdout": "Task05/outputs/return_by_value_actual.txt",
+  "output_stem": "return_by_value",
+  "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific",
+  "sha256": "3189d75a9b7093dfaa1d250fef4c7f223ddb19e46d01831af24a9a478867cde3",
+  "timestamp_utc": "2026-11-12T13:38:49.663Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "comparison_detail": "Exact fixed characters after CRLF decoding; separately validated platform-specific sizeof/address numbers; trailing UI blank space/success banner allowed.",
+  "screenshots": [
+    "Task05/screenshots/return_by_value_programiz.jpg"
+  ]
+}

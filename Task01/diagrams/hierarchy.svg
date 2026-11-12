@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850">
+<rect width="100%" height="100%" fill="white"/>
+<defs><marker id="inherit" markerWidth="18" markerHeight="16" refX="17" refY="8" orient="auto"><path d="M1,1 L17,8 L1,15 Z" fill="white" stroke="#26384a" stroke-width="1.5"/></marker><marker id="owns" markerWidth="20" markerHeight="12" refX="1" refY="6" orient="auto"><path d="M1,6 L9,1 L17,6 L9,11 Z" fill="#26384a"/></marker></defs>
+<polyline points="340.0,310 340,260 590,260 590.0,194" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<polyline points="970.0,310 970,260 590,260 590.0,194" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<polyline points="215.0,640 215,580 340,580 340.0,461" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<polyline points="630.0,640 630,580 340,580 340.0,461" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<rect x="400" y="20" width="380" height="174" rx="2" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="590.0" y="49" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">&lt;&lt;abstract&gt;&gt; Staff</text>
+<path d="M400,64 H780" stroke="#26384a"/>
+<text x="412" y="88" font-family="Arial" font-size="17">- name_: string</text>
+<text x="412" y="111" font-family="Arial" font-size="17">- id_: int</text>
+<path d="M400,126 H780" stroke="#26384a"/>
+<text x="412" y="149" font-family="Arial" font-size="17">+ pay(): double = 0</text>
+<text x="412" y="172" font-family="Arial" font-size="17">+ virtual ~Staff()</text>
+<rect x="130" y="310" width="420" height="151" rx="2" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="340.0" y="339" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">&lt;&lt;abstract&gt;&gt; SalariedStaff</text>
+<path d="M130,354 H550" stroke="#26384a"/>
+<text x="142" y="378" font-family="Arial" font-size="17">- basic_: double</text>
+<text x="142" y="401" font-family="Arial" font-size="17">- daRate_: double</text>
+<path d="M130,416 H550" stroke="#26384a"/>
+<text x="142" y="439" font-family="Arial" font-size="17"># ordinaryPay(): double</text>
+<rect x="800" y="310" width="340" height="151" rx="2" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="970.0" y="339" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">GuestFaculty</text>
+<path d="M800,354 H1140" stroke="#26384a"/>
+<text x="812" y="378" font-family="Arial" font-size="17">- hours_: double</text>
+<text x="812" y="401" font-family="Arial" font-size="17">- hourlyRate_: double</text>
+<path d="M800,416 H1140" stroke="#26384a"/>
+<text x="812" y="439" font-family="Arial" font-size="17">+ pay(): double override</text>
+<rect x="50" y="640" width="330" height="128" rx="2" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="215.0" y="669" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">Professor</text>
+<path d="M50,684 H380" stroke="#26384a"/>
+<text x="62" y="708" font-family="Arial" font-size="17">- research_: double</text>
+<path d="M50,723 H380" stroke="#26384a"/>
+<text x="62" y="746" font-family="Arial" font-size="17">+ pay(): double override</text>
+<rect x="460" y="640" width="340" height="128" rx="2" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="630.0" y="669" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">LabAssistant</text>
+<path d="M460,684 H800" stroke="#26384a"/>
+<text x="472" y="708" font-family="Arial" font-size="17">(no additional fields)</text>
+<path d="M460,723 H800" stroke="#26384a"/>
+<text x="472" y="746" font-family="Arial" font-size="17">+ pay(): double override</text>
+</svg>

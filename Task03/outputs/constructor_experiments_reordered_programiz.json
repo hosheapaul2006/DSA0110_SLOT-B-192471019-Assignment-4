@@ -1,0 +1,15 @@
+{
+  "base_source": "Task03/constructor_experiments/reordered.cpp",
+  "submitted_source": "Task03/constructor_experiments/reordered.cpp",
+  "local_stdout": "Task03/outputs/constructor_experiments_reordered_actual.txt",
+  "output_stem": "constructor_experiments_reordered",
+  "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific",
+  "sha256": "7401ca6d52dcdbd5a85ab69024d94544354abe965325c8ad9380a1520b623741",
+  "timestamp_utc": "2026-11-12T13:35:34.520Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "comparison_detail": "Exact fixed characters after CRLF decoding; separately validated platform-specific sizeof/address numbers; trailing UI blank space/success banner allowed.",
+  "screenshots": [
+    "Task03/screenshots/constructor_experiments_reordered_programiz.jpg"
+  ]
+}

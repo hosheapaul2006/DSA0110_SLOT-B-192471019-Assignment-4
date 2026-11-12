@@ -36,3 +36,5 @@ Staff <|-- GuestFaculty
 ```
 
 Public inheritance means is-a; private data protects invariants. The protected helper shares the DA rule. Asterisk on pay denotes an abstract operation in Mermaid UML notation.
+
+[Standalone UML SVG](hierarchy.svg) is also provided and its rendered layout was reviewed.

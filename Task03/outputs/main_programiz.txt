@@ -1,0 +1,35 @@
+Student scope
+Address(Salem)
+Person(Student identity)
+Course(CSE)
+Student
+~Student
+~Course(CSE)
+~Person(Student identity)
+~Address(Salem)
+Staff scope
+Address(Erode)
+Person(Staff identity)
+Staff
+~Staff
+~Person(Staff identity)
+~Address(Erode)
+TeachingAssistant scope
+Address(Chennai)
+Person(TA identity)
+Course(MTech)
+Student
+Staff
+TA
+~TA
+~Staff
+~Student
+~Course(MTech)
+~Person(TA identity)
+~Address(Chennai)
+sizeof(TeachingAssistant)=136
+Address(Salem)
+Person(Invalid)
+~Person(Invalid)
+~Address(Salem)
+

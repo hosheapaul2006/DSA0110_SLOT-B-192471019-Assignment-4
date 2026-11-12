@@ -1,0 +1,10 @@
+B1 Bicycle base=200.00 late=150.00 energy=0.00 total=350.00
+T1 TwoWheeler base=600.00 late=450.00 energy=100.00 total=1150.00
+C1 Car base=3000.00 late=2250.00 energy=200.00 total=5450.00
+E1 ElectricCar base=3600.00 late=2700.00 energy=50.00 total=6350.00
+Fleet after returns:
+B1 Bicycle daily=100.00 state=available
+T1 TwoWheeler daily=300.00 state=available serviceDue=2027-01-15 fuelLitres=7.00/10.00
+C1 Car daily=1500.00 state=available serviceDue=2027-01-15 fuelLitres=28.00/40.00 seats=5
+E1 ElectricCar daily=1800.00 state=available serviceDue=2027-01-15 batteryKWh=45.00/60.00 chargePercent=75.00 seats=5
+

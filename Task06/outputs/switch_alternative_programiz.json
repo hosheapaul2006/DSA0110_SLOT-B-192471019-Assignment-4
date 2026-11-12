@@ -1,0 +1,18 @@
+{
+  "base_source": "Task06/switch_alternative.cpp",
+  "submitted_source": "Task06/online_switch_alternative.cpp",
+  "local_stdout": "Task06/outputs/online_switch_alternative_actual.txt",
+  "output_stem": "switch_alternative",
+  "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific",
+  "sha256": "d31caa67732f115ea8ec330ab9c2248dbcc02c530d3dff97328636ad3d5a98b9",
+  "timestamp_utc": "2026-11-12T13:39:35.972Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "comparison_detail": "Exact fixed characters after CRLF decoding; separately validated platform-specific sizeof/address numbers; trailing UI blank space/success banner allowed.",
+  "screenshots": [
+    "Task06/screenshots/switch_alternative_programiz.jpg",
+    "Task06/screenshots/switch_alternative_programiz_source_top.jpg",
+    "Task06/screenshots/switch_alternative_programiz_hierarchy.jpg"
+  ],
+  "additional_capture_utc": "2026-11-12T13:39:36.966Z"
+}

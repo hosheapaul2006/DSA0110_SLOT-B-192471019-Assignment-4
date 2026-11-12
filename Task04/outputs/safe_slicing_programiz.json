@@ -1,0 +1,15 @@
+{
+  "base_source": "Task04/safe_slicing.cpp",
+  "submitted_source": "Task04/online_safe_slicing.cpp",
+  "local_stdout": "Task04/outputs/online_safe_slicing_actual.txt",
+  "output_stem": "safe_slicing",
+  "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific",
+  "sha256": "439a8efeb1367b7e33ee6691156b0bec8c2ff41031b4d1ae68c67a8dfa9091e7",
+  "timestamp_utc": "2026-11-12T13:36:58.529Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "comparison_detail": "Exact fixed characters after CRLF decoding; separately validated platform-specific sizeof/address numbers; trailing UI blank space/success banner allowed.",
+  "screenshots": [
+    "Task04/screenshots/safe_slicing_programiz.jpg"
+  ]
+}

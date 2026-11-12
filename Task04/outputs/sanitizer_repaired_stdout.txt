@@ -1,0 +1,10 @@
+Raw owner rate=3.5
+Raw owner rate=4.0
+~Account
+~SeniorAccount (history owner released next)
+~Account
+Smart owner rate=3.5
+Smart owner rate=4.0
+~Account
+~SeniorAccount (history owner released next)
+~Account

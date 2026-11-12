@@ -1,0 +1,15 @@
+{
+  "base_source": "Task02/diamond_experiment.cpp",
+  "submitted_source": "Task02/diamond_experiment.cpp",
+  "local_stdout": "Task02/outputs/diamond_experiment_actual.txt",
+  "output_stem": "diamond_experiment",
+  "comparison": "Exact fixed stdout; positive sizeof measurements and address integers are platform-specific",
+  "sha256": "01ac7ceb50a24b9353957057a57826a8dce9f4cbfbf466ba15cd4752685183cd",
+  "timestamp_utc": "2026-11-12T13:34:55.415Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "comparison_detail": "Exact fixed characters after CRLF decoding; separately validated platform-specific sizeof/address numbers; trailing UI blank space/success banner allowed.",
+  "screenshots": [
+    "Task02/screenshots/diamond_experiment_programiz.jpg"
+  ]
+}

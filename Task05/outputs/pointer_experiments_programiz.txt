@@ -1,0 +1,4 @@
+Highest array total=50 vector total=50
+Element address integers before/after reserve=616334224/616334656
+sizeof Cart=416 pointer=8
+

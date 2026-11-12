@@ -14,17 +14,32 @@ class Vehicle {
   +kind() const text*
   +~Vehicle() virtual
 }
-class MotorVehicle { <<abstract>> }
-class FuelVehicle { <<abstract>> }
-class ElectricVehicle { <<abstract>> }
+class MotorVehicle {
+  <<abstract>>
+}
+class FuelVehicle {
+  <<abstract>>
+}
+class ElectricVehicle {
+  <<abstract>>
+}
 class Bicycle
 class TwoWheeler
 class Car
 class ElectricCar
 class ElectricBus
-class ServiceDate { -int year_; -int month_; -int day_ }
-class EnergyStore { -double capacity_; -double level_ }
-class Seating { -int seats_ }
+class ServiceDate {
+  -int year_
+  -int month_
+  -int day_
+}
+class EnergyStore {
+  -double capacity_
+  -double level_
+}
+class Seating {
+  -int seats_
+}
 class Fleet {
   -Vehicle* vehicles_[8]
   -unique_ptr~Vehicle~ owners_[8]
@@ -53,3 +68,5 @@ Fleet *-- Vehicle : owns through unique_ptr
 ```
 
 Generalization arrows denote public single inheritance; composition diamonds denote owned members/objects. ElectricBus is planned here, but implemented only after the four-type baseline is committed.
+
+[Standalone UML SVG](hierarchy.svg) is also provided and its rendered layout was reviewed.
