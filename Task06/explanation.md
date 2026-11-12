@@ -14,7 +14,7 @@ Sample rates and units are explicitly approved in Reference/approved_design.md. 
 
 For booked=2 and actual=3, base+late equals 3.5*dailyRate. The independent pre-code totals are 350 for Bicycle; 1150 for TwoWheeler using 1 litre; 5450 for Car using 2 litres; 6350 for ElectricCar using 5 kWh. main.cpp verifies all four via base pointers, early/on-time return, double booking and invalid operations. State updates follow successful validation, so an invalid return preserves both booking and stored energy. Overflow checks use long-double intermediates and the representable double range. Display uses two decimals; no production decimal money/rounding guarantee is claimed.
 
-The owner counter checks complete lifetime cleanup, while isolated sanitizer runs independently check dynamic storage. Exact tests and actual results are recorded in test_cases.md and outputs/. The later ElectricBus extension will be separately committed after the baseline and validated against baseline source hashes.
+The owner counter checks complete lifetime cleanup, while isolated sanitizer runs independently check dynamic storage. Exact tests and actual results are recorded in test_cases.md and outputs/. The ElectricBus extension is implemented only in electric_bus.hpp and extension_demo.cpp after baseline commit 368d01c. Actual SHA256 comparisons in outputs/extension_preservation.json confirm fleet.hpp, main.cpp and switch_alternative.cpp are byte-identical to the saved pre-extension baseline. The extension driver verifies the independently planned 17700 total, mixed-fleet processing, energy validation and safe cleanup.
 
 ## Type-code alternative and complexity
 

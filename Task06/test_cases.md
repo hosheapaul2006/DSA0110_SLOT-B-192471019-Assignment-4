@@ -21,6 +21,8 @@
 | 17 | Same rate, active one-day booking returned after 3 days | Overflow; preserve booking | Checked | PASS |
 | 18 | Same booking returned on time | Finite 1e308; cleanup complete | Checked | PASS |
 | 19 | Four type-code/switch calculations | Same four independently calculated totals | Four comparisons passed; sizes printed | PASS |
-| 20 | ElectricBus extension and unchanged existing classes | Late/energy total 17700; no edits to baseline fleet classes | Extension not executed yet | PENDING |
+| 20 | ElectricBus extension and unchanged existing classes | Late/energy total 17700; no edits to baseline fleet classes | 12 checks passed; total 17700 printed; all three baseline hashes matched | PASS |
 
 Baseline main records 61 check evaluations; switch alternative records 4. Driver assertions execute even in normal demonstration mode; --tests additionally logs labels/counts to stderr. Exact commands/source/dependency hashes and actual output are under outputs/. No timing results are invented: the assignment asks for complexity comparison, and actual sizeof values supply storage observations.
+
+Extension driver: 12 additional check evaluations. Existing vehicle implementations were not edited to add ElectricBus.
