@@ -1,0 +1,8 @@
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-4\Task02\ambiguity.cpp: In function 'int main()':
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-4\Task02\ambiguity.cpp:7:39: error: request for member 'name' is ambiguous
+    7 | int main() { TeachingAssistant ta; ta.name = "Ambiguous"; }
+      |                                       ^~~~
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-4\Task02\ambiguity.cpp:3:29: note: candidates are: 'std::string Person::name'
+    3 | struct Person { std::string name; };
+      |                             ^~~~
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-4\Task02\ambiguity.cpp:3:29: note:                 'std::string Person::name'

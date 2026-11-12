@@ -1,0 +1,3 @@
+CHECK|composition owns two independent Persons|PASS
+CHECK|role identities can diverge in composition|PASS
+TEST_COUNT 2

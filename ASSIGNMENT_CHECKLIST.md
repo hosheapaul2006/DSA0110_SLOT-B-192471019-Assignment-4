@@ -15,20 +15,20 @@ Derived from all 14 pages of the supplied PDF and the current preparation prompt
 | T1.07 | Type/switch alternative with code or pseudocode | PASS | [design](Task01/explanation.md), [UML](Task01/diagrams/hierarchy.md), [executed tests](Task01/test_cases.md) |
 | T1.08 | O(1) pay, per-object space and extension change-count comparison | PASS | [design](Task01/explanation.md), [UML](Task01/diagrams/hierarchy.md), [executed tests](Task01/test_cases.md) |
 | T1.09 | Normal, boundary and invalid payroll tests | PASS | [design](Task01/explanation.md), [UML](Task01/diagrams/hierarchy.md), [executed tests](Task01/test_cases.md) |
-| T2.01 | Person name ID phone; Student programme CGPA; Staff department salary | PENDING | Task02/ |
-| T2.02 | TeachingAssistant is Student and Staff; ResearchScholar fellowship | PENDING | Task02/ |
-| T2.03 | Is-a and has-a analysis; single/multiple/multilevel/hierarchical/hybrid classification | PENDING | Task02/ |
-| T2.04 | Virtual inheritance resolves Person diamond | PENDING | Task02/ |
-| T2.05 | Class declarations and inheritance/access rationale | PENDING | Task02/ |
-| T2.06 | Public/protected/private inheritance access table including external code | PENDING | Task02/ |
-| T2.07 | Exact supplied output prediction committed before execution | PENDING | Task02/ |
-| T2.08 | Original prediction execution and character comparison | PENDING | Task02/ |
-| T2.09 | Nonvirtual prediction committed before its first execution | PENDING | Task02/ |
-| T2.10 | Nonvirtual constructor output and real diagnostics | PENDING | Task02/ |
-| T2.11 | Nonvirtual ambiguity error and qualified access | PENDING | Task02/ |
-| T2.12 | Composition alternative code and duplicate Person discussion | PENDING | Task02/ |
-| T2.13 | Actual sizeof virtual/nonvirtual/composition; O(1) access and space comparison | PENDING | Task02/ |
-| T2.14 | Normal and invalid university-person tests | PENDING | Task02/ |
+| T2.01 | Person name ID phone; Student programme CGPA; Staff department salary | PASS | [analysis](Task02/explanation.md), [access](Task02/access_table.md), [tests](Task02/test_cases.md), [prediction comparison](Task02/prediction_observation.md) |
+| T2.02 | TeachingAssistant is Student and Staff; ResearchScholar fellowship | PASS | [analysis](Task02/explanation.md), [access](Task02/access_table.md), [tests](Task02/test_cases.md), [prediction comparison](Task02/prediction_observation.md) |
+| T2.03 | Is-a and has-a analysis; single/multiple/multilevel/hierarchical/hybrid classification | PASS | [analysis](Task02/explanation.md), [access](Task02/access_table.md), [tests](Task02/test_cases.md), [prediction comparison](Task02/prediction_observation.md) |
+| T2.04 | Virtual inheritance resolves Person diamond | PASS | [analysis](Task02/explanation.md), [access](Task02/access_table.md), [tests](Task02/test_cases.md), [prediction comparison](Task02/prediction_observation.md) |
+| T2.05 | Class declarations and inheritance/access rationale | PASS | [analysis](Task02/explanation.md), [access](Task02/access_table.md), [tests](Task02/test_cases.md), [prediction comparison](Task02/prediction_observation.md) |
+| T2.06 | Public/protected/private inheritance access table including external code | PASS | [analysis](Task02/explanation.md), [access](Task02/access_table.md), [tests](Task02/test_cases.md), [prediction comparison](Task02/prediction_observation.md) |
+| T2.07 | Exact supplied output prediction committed before execution | PASS | [analysis](Task02/explanation.md), [access](Task02/access_table.md), [tests](Task02/test_cases.md), [prediction comparison](Task02/prediction_observation.md) |
+| T2.08 | Original prediction execution and character comparison | PASS | [analysis](Task02/explanation.md), [access](Task02/access_table.md), [tests](Task02/test_cases.md), [prediction comparison](Task02/prediction_observation.md) |
+| T2.09 | Nonvirtual prediction committed before its first execution | PASS | [analysis](Task02/explanation.md), [access](Task02/access_table.md), [tests](Task02/test_cases.md), [prediction comparison](Task02/prediction_observation.md) |
+| T2.10 | Nonvirtual constructor output and real diagnostics | PASS | [analysis](Task02/explanation.md), [access](Task02/access_table.md), [tests](Task02/test_cases.md), [prediction comparison](Task02/prediction_observation.md) |
+| T2.11 | Nonvirtual ambiguity error and qualified access | PASS | [analysis](Task02/explanation.md), [access](Task02/access_table.md), [tests](Task02/test_cases.md), [prediction comparison](Task02/prediction_observation.md) |
+| T2.12 | Composition alternative code and duplicate Person discussion | PASS | [analysis](Task02/explanation.md), [access](Task02/access_table.md), [tests](Task02/test_cases.md), [prediction comparison](Task02/prediction_observation.md) |
+| T2.13 | Actual sizeof virtual/nonvirtual/composition; O(1) access and space comparison | PASS | [analysis](Task02/explanation.md), [access](Task02/access_table.md), [tests](Task02/test_cases.md), [prediction comparison](Task02/prediction_observation.md) |
+| T2.14 | Normal and invalid university-person tests | PASS | [analysis](Task02/explanation.md), [access](Task02/access_table.md), [tests](Task02/test_cases.md), [prediction comparison](Task02/prediction_observation.md) |
 | T3.01 | Student Staff TA initializer lists and most-derived virtual-base initialization | PENDING | Task03/ |
 | T3.02 | Address member in Person; Course member in Student | PENDING | Task03/ |
 | T3.03 | Every constructor/destructor traces Student Staff TA lifetimes | PENDING | Task03/ |

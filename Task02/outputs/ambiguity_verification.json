@@ -1,0 +1,26 @@
+{
+  "source": "Task02/ambiguity.cpp",
+  "sha256": "7f614d1b6219d479eb5e966b991187c93f53b24a66adf4b9d87fd42d1643ef74",
+  "timestamp_utc": "2026-11-12T13:05:45.685799+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\Task02\\ambiguity.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\build\\Task02\\ambiguity.exe"
+  ],
+  "compile_exit": 1,
+  "expected_diagnostic": "error",
+  "compile_only": false,
+  "test_count": 1,
+  "tag": null,
+  "headers_sha256": {
+    "Task02/people.hpp": "55c7f009e2fe11c78f9e227a8a91e8c85cf1b9ad75c41c80d366be4e4bf4b991"
+  },
+  "status": "PASS: expected compiler error"
+}

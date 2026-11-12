@@ -1,0 +1,2 @@
+CHECK|derived code reaches public/protected and uses getter for private|PASS
+TEST_COUNT 1
