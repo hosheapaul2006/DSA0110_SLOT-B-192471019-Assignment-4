@@ -1,0 +1,11 @@
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-4\Task04\slicing_rejected.cpp: In function 'int main()':
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-4\Task04\slicing_rejected.cpp:3:53: error: use of deleted function 'Account::Account(const Account&)'
+    3 | int main() { SeniorAccount senior; Account sliced = senior; }
+      |                                                     ^~~~~~
+In file included from C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-4\Task04\slicing_rejected.cpp:2:
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-4\Task04\accounts.hpp:10:5: note: declared here
+   10 |     Account(const Account&) = delete; // Prevent accidental by-value slicing in this design.
+      |     ^~~~~~~
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-4\Task04\slicing_rejected.cpp:3:53: note: use '-fdiagnostics-all-candidates' to display considered candidates
+    3 | int main() { SeniorAccount senior; Account sliced = senior; }
+      |                                                     ^~~~~~

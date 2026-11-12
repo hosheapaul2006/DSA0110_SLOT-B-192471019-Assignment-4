@@ -1,0 +1,27 @@
+{
+  "source": "Task04/original.cpp",
+  "sha256": "1910495e6f7e566f1b072f4fa92c715a544f06262bc888b674702c29f0c69d7e",
+  "timestamp_utc": "2026-11-12T13:12:07.030727+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\Task04\\original.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-4\\build\\Task04\\original.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": true,
+  "test_count": 0,
+  "tag": null,
+  "headers_sha256": {
+    "Task04/accounts.hpp": "ba649643c5aea0a38b130233eb2ccdaa2e0b49d6fbd657f8c6e3569d81234501",
+    "Task04/original_banking.hpp": "9257029ae97970bd61e302fd667c935b84b3b59c8e338211151b60134bab7a8f"
+  },
+  "status": "PASS: compiled only; execution reserved for isolated sanitizer test"
+}

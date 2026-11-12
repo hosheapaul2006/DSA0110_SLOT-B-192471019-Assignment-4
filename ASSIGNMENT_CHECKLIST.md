@@ -42,17 +42,17 @@ Derived from all 14 pages of the supplied PDF and the current preparation prompt
 | T3.11 | Address embedding vs owning pointer alternative code/pseudocode | PASS | [analysis](Task03/explanation.md), [tests](Task03/test_cases.md), [actual traces](Task03/outputs/main_actual.txt), [warning](Task03/outputs/constructor_experiments_reordered_compiler.txt) |
 | T3.12 | Allocation/pointer space; constructor deep-copy assignment destructor safety analysis | PASS | [analysis](Task03/explanation.md), [tests](Task03/test_cases.md), [actual traces](Task03/outputs/main_actual.txt), [warning](Task03/outputs/constructor_experiments_reordered_compiler.txt) |
 | T3.13 | Normal/boundary lifetime and ownership tests | PASS | [analysis](Task03/explanation.md), [tests](Task03/test_cases.md), [actual traces](Task03/outputs/main_actual.txt), [warning](Task03/outputs/constructor_experiments_reordered_compiler.txt) |
-| T4.01 | Original banking design retained with isolated destructor trace | PENDING | Task04/ |
-| T4.02 | Explain static binding nonvirtual-delete UB and slicing | PENDING | Task04/ |
+| T4.01 | Original banking design retained with isolated destructor trace | PASS | [analysis](Task04/explanation.md), [tests](Task04/test_cases.md) |
+| T4.02 | Explain static binding nonvirtual-delete UB and slicing | PASS | [analysis](Task04/explanation.md), [tests](Task04/test_cases.md) |
 | T4.03 | Run original unsafe deletion under actual AddressSanitizer | PENDING | Task04/ |
 | T4.04 | Record genuine constructor/destructor/sanitizer evidence; no-diagnostic limitation | PENDING | Task04/ |
-| T4.05 | Repair virtual rate override virtual destructor and cleanup | PENDING | Task04/ |
-| T4.06 | Process base pointers/references without slicing; senior 4.0 vs ordinary 3.5 | PENDING | Task04/ |
-| T4.07 | At least two prevention rules | PENDING | Task04/ |
-| T4.08 | Exact rate/vrate/slicing prediction committed before execution | PENDING | Task04/ |
-| T4.09 | Original prediction execution and exact output comparison | PENDING | Task04/ |
-| T4.10 | Raw ownership versus vector<unique_ptr<Account>> alternative | PENDING | Task04/ |
-| T4.11 | O(n) processing, ownership space and smart-pointer limitations | PENDING | Task04/ |
+| T4.05 | Repair virtual rate override virtual destructor and cleanup | PASS | [analysis](Task04/explanation.md), [tests](Task04/test_cases.md) |
+| T4.06 | Process base pointers/references without slicing; senior 4.0 vs ordinary 3.5 | PASS | [analysis](Task04/explanation.md), [tests](Task04/test_cases.md) |
+| T4.07 | At least two prevention rules | PASS | [analysis](Task04/explanation.md), [tests](Task04/test_cases.md) |
+| T4.08 | Exact rate/vrate/slicing prediction committed before execution | PASS | [analysis](Task04/explanation.md), [tests](Task04/test_cases.md) |
+| T4.09 | Original prediction execution and exact output comparison | PASS | [analysis](Task04/explanation.md), [tests](Task04/test_cases.md) |
+| T4.10 | Raw ownership versus vector<unique_ptr<Account>> alternative | PASS | [analysis](Task04/explanation.md), [tests](Task04/test_cases.md) |
+| T4.11 | O(n) processing, ownership space and smart-pointer limitations | PASS | [analysis](Task04/explanation.md), [tests](Task04/test_cases.md) |
 | T4.12 | Safe and intentionally defective cases tested separately | PENDING | Task04/ |
 | T5.01 | Four Cart access methods direct pointer reference new/delete | PENDING | Task05/ |
 | T5.02 | this and *this demonstrated; method chaining and shadowed parameter | PENDING | Task05/ |

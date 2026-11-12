@@ -13,6 +13,18 @@ ROOT=Path(__file__).resolve().parents[1]
 PORTABLE=ROOT.parent/'.tools/mingw64/bin/g++.exe'
 CXX=os.environ.get('CXX',str(PORTABLE) if PORTABLE.exists() else shutil.which('g++') or 'g++')
 
+def dependencies(path, seen=None):
+    seen = set() if seen is None else seen
+    path = path.resolve()
+    if path in seen: return {}
+    seen.add(path)
+    result = {}
+    for name in re.findall(r'^\s*#include\s+"([^"]+)"', path.read_text(encoding='utf-8'), re.M):
+        included = (path.parent/name).resolve()
+        result[included.relative_to(ROOT).as_posix()] = hashlib.sha256(included.read_bytes()).hexdigest()
+        result.update(dependencies(included, seen))
+    return result
+
 def verify(task,source,opt='-O0',expected=None,diagnostic=None,needle=None,compile_only=False,tests=False,extra=None,tag=None):
     path=ROOT/task/source; out=ROOT/task/'outputs';out.mkdir(parents=True,exist_ok=True)
     stem=source.replace('/','_').replace('.cpp','')+('_'+opt[1:] if 'benchmark' in source else '')
@@ -27,7 +39,7 @@ def verify(task,source,opt='-O0',expected=None,diagnostic=None,needle=None,compi
             'timestamp_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'optimization':opt,
             'compile_command':command,'compile_exit':run.returncode,'expected_diagnostic':diagnostic,
             'compile_only':compile_only,'test_count':0,'tag':tag,
-            'headers_sha256':{p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in path.parent.glob('*.hpp')}}
+            'headers_sha256':dependencies(path)}
     if diagnostic=='error':
         assert run.returncode!=0 and (not needle or needle.lower() in run.stderr.decode(errors='replace').lower()),run.stderr.decode(errors='replace')
         record.update(status='PASS: expected compiler error',test_count=1)
