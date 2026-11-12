@@ -54,16 +54,16 @@ Derived from all 14 pages of the supplied PDF and the current preparation prompt
 | T4.10 | Raw ownership versus vector<unique_ptr<Account>> alternative | PASS | [analysis](Task04/explanation.md), [tests](Task04/test_cases.md) |
 | T4.11 | O(n) processing, ownership space and smart-pointer limitations | PASS | [analysis](Task04/explanation.md), [tests](Task04/test_cases.md) |
 | T4.12 | Safe and intentionally defective cases tested separately | PENDING | Task04/ |
-| T5.01 | Four Cart access methods direct pointer reference new/delete | PENDING | Task05/ |
-| T5.02 | this and *this demonstrated; method chaining and shadowed parameter | PENDING | Task05/ |
-| T5.03 | Array of Cart pointers maximum search with indexing/arithmetic | PENDING | Task05/ |
-| T5.04 | Empty null tie capacity and invalid-input search/cart tests | PENDING | Task05/ |
-| T5.05 | Safety lifetime ownership and usage comparison | PENDING | Task05/ |
-| T5.06 | Supplied add TODO1 and setDiscount TODO2 only replacements | PENDING | Task05/ |
-| T5.07 | Expected completed TODO output 324.00 | PENDING | Task05/ |
-| T5.08 | Actual by-value chaining experiment and explanation | PENDING | Task05/ |
-| T5.09 | vector<Cart> alternative with highest-total search | PENDING | Task05/ |
-| T5.10 | O(n) search and object/pointer storage copy/move and invalidation analysis | PENDING | Task05/ |
+| T5.01 | Four Cart access methods direct pointer reference new/delete | PASS | [analysis](Task05/explanation.md), [tests](Task05/test_cases.md), [TODO output](Task05/outputs/complete_code_actual.txt) |
+| T5.02 | this and *this demonstrated; method chaining and shadowed parameter | PASS | [analysis](Task05/explanation.md), [tests](Task05/test_cases.md), [TODO output](Task05/outputs/complete_code_actual.txt) |
+| T5.03 | Array of Cart pointers maximum search with indexing/arithmetic | PASS | [analysis](Task05/explanation.md), [tests](Task05/test_cases.md), [TODO output](Task05/outputs/complete_code_actual.txt) |
+| T5.04 | Empty null tie capacity and invalid-input search/cart tests | PASS | [analysis](Task05/explanation.md), [tests](Task05/test_cases.md), [TODO output](Task05/outputs/complete_code_actual.txt) |
+| T5.05 | Safety lifetime ownership and usage comparison | PASS | [analysis](Task05/explanation.md), [tests](Task05/test_cases.md), [TODO output](Task05/outputs/complete_code_actual.txt) |
+| T5.06 | Supplied add TODO1 and setDiscount TODO2 only replacements | PASS | [analysis](Task05/explanation.md), [tests](Task05/test_cases.md), [TODO output](Task05/outputs/complete_code_actual.txt) |
+| T5.07 | Expected completed TODO output 324.00 | PASS | [analysis](Task05/explanation.md), [tests](Task05/test_cases.md), [TODO output](Task05/outputs/complete_code_actual.txt) |
+| T5.08 | Actual by-value chaining experiment and explanation | PASS | [analysis](Task05/explanation.md), [tests](Task05/test_cases.md), [TODO output](Task05/outputs/complete_code_actual.txt) |
+| T5.09 | vector<Cart> alternative with highest-total search | PASS | [analysis](Task05/explanation.md), [tests](Task05/test_cases.md), [TODO output](Task05/outputs/complete_code_actual.txt) |
+| T5.10 | O(n) search and object/pointer storage copy/move and invalidation analysis | PASS | [analysis](Task05/explanation.md), [tests](Task05/test_cases.md), [TODO output](Task05/outputs/complete_code_actual.txt) |
 | T6.01 | Stage1 entities common/specialized data and testable requirements before code | PENDING | Task06/ |
 | T6.02 | Stage2 abstract Vehicle pure virtual function and UML | PENDING | Task06/ |
 | T6.03 | Bicycle TwoWheeler Car ElectricCar and later ElectricBus | PENDING | Task06/ |
